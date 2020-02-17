@@ -1,0 +1,11 @@
+zorin-exec-guard-app-db (1.0) bionic; urgency=medium
+
+  * Initial release
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 31 Oct 2018 19:54:20 +0000
+
+zorin-exec-guard-app-db (0.9) bionic; urgency=medium
+
+  * Pre-release
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 25 Oct 2018 00:01:46 +0100

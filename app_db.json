@@ -1,0 +1,110 @@
+[
+    {
+        "regex": {
+            "windows": "firefox\\s+setup.*.exe",
+            "linux": "firefox.*"
+        },
+        "name": "Firefox",
+        "apt": "firefox",
+        "desktopLauncher": "firefox.desktop"
+    },
+    {
+        "regex": {
+             "windows": ".*skype.*.exe",
+             "linux": "skype.*"
+        },
+        "name": "Skype",
+        "desktopLauncher": "skype_skypeforlinux.desktop"
+    },
+    {
+        "regex": {
+            "windows": "spotifysetup.*.exe"
+        },
+        "name": "Spotify",
+        "desktopLauncher": "spotify_spotify.desktop"
+    },
+    {
+        "regex": {
+            "windows": "itunes.*.exe"
+        },
+        "name": "Apple iTunes",
+        "desktopLauncher": "spotify_spotify.desktop",
+        "alternative": {
+            "name": "Spotify"
+        }
+    },
+    {
+        "regex": {
+             "windows": "steam.*.exe",
+             "linux": "steam.*"
+        },
+        "name": "Steam",
+        "apt": "steam-installer"
+    },
+    {
+        "regex": {
+            "windows": "whatsapp.*.exe"
+        },
+        "name": "WhatsApp",
+        "webLink": { "href": "https://web.whatsapp.com/" },
+        "mainMessage": "You can use WhatsApp on the web"
+    },
+    {
+        "regex": {
+            "windows": "vlc.*.exe",
+            "linux": "vlc.*"
+        },
+        "name": "VLC",
+        "apt": "vlc",
+        "desktopLauncher": "vlc.desktop"
+    },
+    {
+        "regex": {
+            "windows": ".*utorrent.*.exe"
+        },
+        "name": "uTorrent",
+        "flatpak": { "remote": "flathub", "id": "com.transmissionbt.Transmission" },
+        "apt": "transmission-gtk",
+        "desktopLauncher": "transmission-gtk.desktop",
+        "alternative": {
+            "name": "Transmission"
+        }
+    },
+    {
+        "regex": {
+            "windows": ".*distance.*windows_setup.exe"
+        },
+        "name": "Distance",
+        "steam": "233610",
+        "desktopLauncher": "steam.desktop",
+        "alternative": {
+            "name": "on Steam"
+        }
+    },
+    {
+        "regex": {
+            "windows": ".*\\b(avast|avg|avira|kaspersky|mcaffe|malwarebytes|norton|sophos).*.exe"
+        },
+        "mainMessage": "Zorin OS is already resistant to Windows viruses and malware",
+        "noButton": true
+    },
+    {
+        "regex": {
+            "windows": ".*flash.*player.*.exe",
+            "linux": "flash-player.*"
+        },
+        "name": "Flash Player",
+        "apt": "flashplugin-installer"
+    },
+    {
+        "regex": {
+            "windows": "[Ww]indows.*[Ss]etup.*.exe"
+        },
+        "name": "Microsoft Windows",
+        "desktopLauncher": "org.gnome.Boxes.desktop",
+        "mainMessage": "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS",
+        "alternative": {
+            "name": "GNOME Boxes"
+        }
+   }
+]
