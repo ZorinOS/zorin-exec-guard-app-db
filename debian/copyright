@@ -3,7 +3,7 @@ Upstream-Name: Zorin Exec Guard App DB
 Upstream-Contact: Artyom Zorin <azorin@zoringroup.com>
 
 Files: *
-Copyright: 2018 Zorin OS Technologies Ltd.
+Copyright: 2018-2021 Zorin OS Technologies Ltd.
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
