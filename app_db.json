@@ -64,7 +64,7 @@
         "name": "Adobe Reader",
         "desktopLauncher": "org.gnome.Evince.desktop",
         "alternative": {
-            "name": "Document Reader"
+            "name": "Document Viewer"
         }
     },
     {
