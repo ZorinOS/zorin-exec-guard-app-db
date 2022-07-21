@@ -1,3 +1,15 @@
+zorin-exec-guard-app-db (1.2.6) focal; urgency=medium
+
+  * Added Slack to app DB
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 21 Jul 2022 20:17:37 +0100
+
+zorin-exec-guard-app-db (1.2.5) focal; urgency=medium
+
+  * Fixed typographical error in LibreOffice Draw recommendation
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 17 Aug 2021 17:38:39 +0100
+
 zorin-exec-guard-app-db (1.2.4) focal; urgency=medium
 
   * Fixed Document Viewer name

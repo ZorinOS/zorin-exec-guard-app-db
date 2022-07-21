@@ -325,7 +325,7 @@
     {
         "regex": {
             "windows": "discordsetup.*.exe",
-             "linux": "discord.*"
+            "linux": "discord.*"
         },
         "name": "Discord",
         "flatpak": { "remote": "flathub", "id": "com.discordapp.Discord" },
@@ -347,6 +347,15 @@
         "name": "Zoom",
         "flatpak": { "remote": "flathub", "id": "us.zoom.Zoom" },
         "desktopLauncher": "us.zoom.Zoom.desktop"
+    },
+    {
+        "regex": {
+            "windows": "slacksetup.*.exe",
+            "linux": "slack-desktop.*"
+        },
+        "name": "Slack",
+        "flatpak": { "remote": "flathub", "id": "com.slack.Slack" },
+        "desktopLauncher": "slack.desktop"
     },
     {
         "regex": {
