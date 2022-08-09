@@ -1,3 +1,11 @@
+zorin-exec-guard-app-db (1.2.7) focal; urgency=medium
+
+  * Made Heroic Games Launcher the recommended alternative for Epic
+    Games Launcher and GOG Galaxy, and Lutris the recommended
+    alternative for Ubisoft Connect
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 09 Aug 2022 17:48:13 +0100
+
 zorin-exec-guard-app-db (1.2.6) focal; urgency=medium
 
   * Added Slack to app DB

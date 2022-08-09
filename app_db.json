@@ -153,9 +153,21 @@
             "windows": "epicinstaller.*.msi"
         },
         "name": "Epic Games Store",
-        "desktopLauncher": "net.lutris.Lutris.desktop",
+        "flatpak": { "remote": "flathub", "id": "com.heroicgameslauncher.hgl" },
+        "desktopLauncher": "com.heroicgameslauncher.hgl.desktop",
         "alternative": {
-            "name": "Lutris"
+            "name": "Heroic Games Launcher"
+        }
+    },
+    {
+        "regex": {
+            "windows": "gog_galaxy.*.exe"
+        },
+        "name": "GOG Galaxy",
+        "flatpak": { "remote": "flathub", "id": "com.heroicgameslauncher.hgl" },
+        "desktopLauncher": "com.heroicgameslauncher.hgl.desktop",
+        "alternative": {
+            "name": "Heroic Games Launcher"
         }
     },
     {
@@ -183,6 +195,16 @@
             "windows": "originthinsetup.*.exe"
         },
         "name": "Origin",
+        "desktopLauncher": "net.lutris.Lutris.desktop",
+        "alternative": {
+            "name": "Lutris"
+        }
+    },
+    {
+        "regex": {
+            "windows": "ubisoftconnectinstaller.*.exe"
+        },
+        "name": "Ubisoft Connect",
         "desktopLauncher": "net.lutris.Lutris.desktop",
         "alternative": {
             "name": "Lutris"
