@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.2.8) focal; urgency=medium
+
+  * Add more apps and games to app DB
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sun, 23 Oct 2022 23:20:04 +0100
+
 zorin-exec-guard-app-db (1.2.7) focal; urgency=medium
 
   * Made Heroic Games Launcher the recommended alternative for Epic

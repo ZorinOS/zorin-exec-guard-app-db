@@ -520,6 +520,87 @@
     },
     {
         "regex": {
+            "windows": "robloxplayerlauncher.*.exe"
+        },
+        "name": "Roblox Player Launcher",
+        "flatpak": { "remote": "flathub", "id": "net.brinkervii.grapejuice" },
+        "desktopLauncher": "grapejuice.desktop",
+        "alternative": {
+            "name": "Grapejuice"
+        }
+    },
+    {
+        "regex": {
+            "windows": "robloxstudiolauncher.*.exe"
+        },
+        "name": "Roblox Studio Launcher",
+        "flatpak": { "remote": "flathub", "id": "net.brinkervii.grapejuice" },
+        "desktopLauncher": "grapejuice.desktop",
+        "alternative": {
+            "name": "Grapejuice"
+        }
+    },
+    {
+        "regex": {
+             "windows": "brackets.*.exe"
+        },
+        "name": "Brackets",
+        "flatpak": { "remote": "flathub", "id": "io.brackets.Brackets" },
+        "desktopLauncher": "io.brackets.Brackets.desktop"
+    },
+    {
+        "regex": {
+            "windows": "visualstudiosetup.*.exe"
+        },
+        "name": "Visual Studio",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.Rider" },
+        "desktopLauncher": "rider_rider.desktop",
+        "alternative": {
+            "name": "JetBrains Rider"
+        }
+    },
+    {
+        "regex": {
+             "windows": "obs-studio-.*.exe"
+        },
+        "name": "OBS Studio",
+        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
+        "desktopLauncher": "com.obsproject.Studio.desktop"
+    },
+    {
+        "regex": {
+             "windows": "android-studio-.*.exe"
+        },
+        "name": "Android Studio",
+        "flatpak": { "remote": "flathub", "id": "com.google.AndroidStudio" },
+        "desktopLauncher": "android-studio.desktop"
+    },
+    {
+        "regex": {
+             "windows": "blender-.*.msi"
+        },
+        "name": "Blender",
+        "flatpak": { "remote": "flathub", "id": "org.blender.Blender" },
+        "desktopLauncher": "blender.desktop"
+    },
+    {
+        "regex": {
+             "windows": "bitcoin-.*-setup.exe"
+        },
+        "name": "Bitcoin Core",
+        "flatpak": { "remote": "flathub", "id": "org.bitcoincore.bitcoin-qt" },
+        "desktopLauncher": "bitcoin-core_bitcoin-qt.desktop"
+    },
+    {
+        "regex": {
+             "windows": "audacity-win-.*.exe"
+        },
+        "name": "Audacity",
+        "flatpak": { "remote": "flathub", "id": "org.audacityteam.Audacity" },
+        "desktopLauncher": "audacity.desktop"
+    },
+    {
+        "regex": {
             "windows": ".*\\b(avast|avg|avira|kaspersky|mcaffe|malwarebytes|norton|sophos).*.(exe|msi)"
         },
         "mainMessage": "Zorin OS is already resistant to Windows viruses and malware",
