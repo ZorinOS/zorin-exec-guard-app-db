@@ -91,7 +91,7 @@
         },
         "name": "Apple iTunes",
         "flatpak": { "remote": "flathub", "id": "sh.cider.Cider" },
-        "desktopLauncher": "sh.cider.Cider.desktop",
+        "desktopLauncher": "cider.desktop",
         "alternative": {
             "name": "Cider"
         }
@@ -586,7 +586,7 @@
     },
     {
         "regex": {
-             "windows": "bitcoin-.*-setup.exe"
+             "windows": "bitcoin-.*.-setup.exe"
         },
         "name": "Bitcoin Core",
         "flatpak": { "remote": "flathub", "id": "org.bitcoincore.bitcoin-qt" },
