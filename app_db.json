@@ -87,12 +87,13 @@
     },
     {
         "regex": {
-            "windows": "itunes.*.exe"
+            "windows": "itunes.*setup.exe"
         },
         "name": "Apple iTunes",
-        "desktopLauncher": "rhythmbox.desktop",
+        "flatpak": { "remote": "flathub", "id": "sh.cider.Cider" },
+        "desktopLauncher": "sh.cider.Cider.desktop",
         "alternative": {
-            "name": "Rhythmbox"
+            "name": "Cider"
         }
     },
     {

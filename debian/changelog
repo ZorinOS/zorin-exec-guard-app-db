@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.2.9) focal; urgency=medium
+
+  * Switched to Cider as the alternative to iTunes
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Mon, 24 Oct 2022 22:43:54 +0100
+
 zorin-exec-guard-app-db (1.2.8) focal; urgency=medium
 
   * Add more apps and games to app DB
