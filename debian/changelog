@@ -1,3 +1,10 @@
+zorin-exec-guard-app-db (1.2.11) focal; urgency=medium
+
+  * Recommend installing Pinta as an alternative to Paint.NET and added
+    Linux installers for several emulator executables on Windows
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 29 Nov 2022 20:34:56 +0000
+
 zorin-exec-guard-app-db (1.2.10) focal; urgency=medium
 
   * Updated pattern matching

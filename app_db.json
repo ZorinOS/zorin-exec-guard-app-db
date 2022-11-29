@@ -101,10 +101,10 @@
             "windows": "paint.net.*.exe"
         },
         "name": "Paint.NET",
-        "flatpak": { "remote": "flathub", "id": "org.kde.krita" },
-        "desktopLauncher": "org.kde.krita.desktop",
+        "flatpak": { "remote": "flathub", "id": "com.github.PintaProject.Pinta" },
+        "desktopLauncher": "pinta.desktop",
         "alternative": {
-            "name": "Krita"
+            "name": "Pinta"
         }
     },
     {
@@ -614,6 +614,78 @@
         },
         "mainMessage": "Flash Player is no longer supported",
         "noButton": true
+    },
+    {
+        "regex": {
+            "windows": "retroarch-.*.-setup.exe"
+        },
+        "name": "RetroArch",
+        "flatpak": { "remote": "flathub", "id": "org.libretro.RetroArch" },
+        "desktopLauncher": "retroarch.desktop"
+    },
+    {
+        "regex": {
+             "windows": "pcsx2.*.exe"
+        },
+        "name": "PCSX2",
+        "flatpak": { "remote": "flathub", "id": "net.pcsx2.PCSX2" },
+        "desktopLauncher": "PCSX2.desktop"
+    },
+    {
+        "regex": {
+            "windows": "yuzu.*.exe"
+        },
+        "name": "yuzu",
+        "flatpak": { "remote": "flathub", "id": "org.yuzu_emu.yuzu" },
+        "desktopLauncher": "org.yuzu_emu.yuzu.desktop"
+    },
+    {
+        "regex": {
+            "windows": "dolphin.*.exe"
+        },
+        "name": "Dolphin Emulator",
+        "flatpak": { "remote": "flathub", "id": "org.DolphinEmu.dolphin-emu" },
+        "desktopLauncher": "dolphin-emu.desktop"
+    },
+    {
+        "regex": {
+            "windows": "ppsspp.*.exe"
+        },
+        "name": "PPSSPP",
+        "flatpak": { "remote": "flathub", "id": "org.ppsspp.PPSSPP" },
+        "desktopLauncher": "ppsspp.desktop"
+    },
+    {
+        "regex": {
+            "windows": "citra-setup-windows.exe"
+        },
+        "name": "Citra",
+        "flatpak": { "remote": "flathub", "id": "org.citra_emu.citra" },
+        "desktopLauncher": "citra.desktop"
+    },
+    {
+        "regex": {
+            "windows": "duckstation-qt.*.exe"
+        },
+        "name": "DuckStation",
+        "flatpak": { "remote": "flathub", "id": "org.duckstation.DuckStation" },
+        "desktopLauncher": "duckstation.desktop"
+    },
+    {
+        "regex": {
+            "windows": "mame.*.exe"
+        },
+        "name": "MAME",
+        "flatpak": { "remote": "flathub", "id": "org.mamedev.MAME" },
+        "desktopLauncher": "mame.desktop"
+    },
+    {
+        "regex": {
+            "windows": "snes9x.*.exe"
+        },
+        "name": "Snes9x",
+        "flatpak": { "remote": "flathub", "id": "com.snes9x.Snes9x" },
+        "desktopLauncher": "snes9x-gtk.desktop"
     },
     {
         "regex": {
