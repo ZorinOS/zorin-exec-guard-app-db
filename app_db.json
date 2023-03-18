@@ -689,6 +689,61 @@
     },
     {
         "regex": {
+            "windows": "xemu.*.exe",
+             "linux": "xemu.*"
+        },
+        "name": "Xemu",
+        "flatpak": { "remote": "flathub", "id": "app.xemu.xemu" },
+        "desktopLauncher": "xemu.desktop"
+    },
+    {
+        "regex": {
+            "windows": "Setup Project64.*.exe"
+        },
+        "name": "Project64",
+        "flatpak": { "remote": "flathub", "id": "io.github.simple64.simple64" },
+        "desktopLauncher": "simple64.desktop",
+        "alternative": {
+            "name": "Simple64"
+        }
+    },
+    {
+        "regex": {
+            "windows": "vscodeusersetup.*.exe",
+            "linux": "code.*"
+        },
+        "name": "Visual Studio Code",
+        "flatpak": { "remote": "flathub", "id": "com.visualstudio.code." },
+        "desktopLauncher": "code.desktop"
+    },
+    {
+        "regex": {
+            "windows": "githubdesktopsetup.*.(exe|msi)"
+        },
+        "name": "GitHub Desktop",
+        "flatpak": { "remote": "flathub", "id": "io.github.shiftey.Desktop" },
+        "desktopLauncher": "githubdesktop.desktop"
+    },
+    {
+        "regex": {
+            "windows": "ultimaker-cura.*.exe",
+            "linux": "ultimaker-cura.*.linux.*"
+        },
+        "name": "UltiMaker Cura",
+        "flatpak": { "remote": "flathub", "id": "com.ultimaker.cura" },
+        "desktopLauncher": "cura.desktop"
+    },
+    {
+        "regex": {
+            "windows": "desktopeditors.*.(exe|msi)",
+            "linux": "onlyoffice-desktopeditors.*"
+        },
+        "name": "ONLYOFFICE",
+        "flatpak": { "remote": "flathub", "id": "org.onlyoffice.desktopeditors" },
+        "desktopLauncher": "onlyoffice-desktopeditors.desktop"
+    },
+    {
+        "regex": {
             "windows": "[Ww]indows.*[Ss]etup.*.exe"
         },
         "name": "Microsoft Windows",
