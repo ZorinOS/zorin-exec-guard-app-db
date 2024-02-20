@@ -2,11 +2,15 @@ Source: zorin-exec-guard-app-db
 Section: gnome
 Priority: optional
 Maintainer: Artyom Zorin <azorin@zoringroup.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Build-Depends: debhelper (>= 10.3)
+Standards-Version: 4.1.3
+Rules-Requires-Root: no
+
 
 Package: zorin-exec-guard-app-db
 Architecture: all
-Depends: ${misc:Depends}, zorin-exec-guard
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         zorin-exec-guard
 Description: Zorin Exec Guard - App Database
  This package adds a database of replacement apps for Zorin Exec Guard.

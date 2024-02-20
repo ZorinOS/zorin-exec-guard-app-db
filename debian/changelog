@@ -1,3 +1,22 @@
+zorin-exec-guard-app-db (1.2.15) jammy; urgency=medium
+
+  * Added more software to app database and updated some existing
+    listings
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 20 Feb 2024 23:32:12 +0000
+
+zorin-exec-guard-app-db (1.2.14) jammy; urgency=medium
+
+  * Updated some app links
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sun, 05 Nov 2023 20:48:49 +0000
+
+zorin-exec-guard-app-db (1.2.13) jammy; urgency=medium
+
+  * Updated debian package compatibility level
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 27 Apr 2023 19:29:03 +0100
+
 zorin-exec-guard-app-db (1.2.12) focal; urgency=medium
 
   * Added more software to app database

@@ -5,7 +5,7 @@
             "linux": "firefox.*"
         },
         "name": "Mozilla Firefox",
-        "apt": "firefox",
+        "flatpak": { "remote": "flathub", "id": "org.mozilla.firefox" },
         "desktopLauncher": "firefox.desktop"
     },
     {
@@ -13,9 +13,10 @@
             "windows": "(eie11|ie11).*.(exe|msi)"
         },
         "name": "Internet Explorer",
-        "desktopLauncher": "firefox.desktop",
+        "flatpak": { "remote": "flathub", "id": "com.microsoft.Edge" },
+        "desktopLauncher": "microsoft-edge.desktop",
         "alternative": {
-            "name": "Mozilla Firefox"
+            "name": "Microsoft Edge"
         }
     },
     {
@@ -30,8 +31,25 @@
         "regex": {
              "windows": "bravebrowsersetup.*.exe"
         },
-        "name": "Brave",
+        "name": "Brave Browser",
+        "flatpak": { "remote": "flathub", "id": "com.brave.Browser" },
         "desktopLauncher": "brave-browser.desktop"
+    },
+    {
+        "regex": {
+             "windows": "microsoftedgesetup.*.(exe|msi)"
+        },
+        "name": "Microsoft Edge",
+        "flatpak": { "remote": "flathub", "id": "com.microsoft.Edge" },
+        "desktopLauncher": "microsoft-edge.desktop"
+    },
+    {
+        "regex": {
+             "windows": "opera(.*.|)setup.*.(exe|msi)"
+        },
+        "name": "Opera",
+        "flatpak": { "remote": "flathub", "id": "com.opera.Opera" },
+        "desktopLauncher": "opera.desktop"
     },
     {
         "regex": {
@@ -280,6 +298,22 @@
     },
     {
         "regex": {
+            "windows": "canva.*.setup.*.exe"
+        },
+        "name": "Canva",
+        "webLink": { "href": "https://www.canva.com/" },
+        "mainMessage": "You can use Canva on the web"
+    },
+    {
+        "regex": {
+             "windows": "kindleforpc.*.exe"
+        },
+        "name": "Amazon Kindle",
+        "webLink": { "href": "https://read.amazon.com/" },
+        "mainMessage": "You can use Amazon Kindle on the web"
+    },
+    {
+        "regex": {
             "windows": "vlc.*.(exe|msi)",
             "linux": "vlc.*"
         },
@@ -290,11 +324,11 @@
     },
     {
         "regex": {
-            "windows": "1passwordsetup.*.exe",
-            "linux": "1password.*"
+            "windows": "1passwordsetup.*.exe"
         },
-        "name": "1Password",
-        "desktopLauncher": "1password.desktop"
+        "name": "1Password website",
+        "webLink": { "href": "https://1password.com/downloads/linux/" },
+        "mainMessage": "You can download 1Password (.deb package) for Zorin OS from the web"
     },
     {
         "regex": {
@@ -317,7 +351,7 @@
         "regex": {
             "windows": "(utorrent|utweb).*.exe"
         },
-        "name": "uTorrent",
+        "name": "µTorrent",
         "flatpak": { "remote": "flathub", "id": "com.transmissionbt.Transmission" },
         "apt": "transmission-gtk",
         "desktopLauncher": "transmission-gtk.desktop",
@@ -393,8 +427,12 @@
         "regex": {
              "windows": "npp.*.(exe|msi)"
         },
-        "name": "Notepad++",
-        "desktopLauncher": "notepad-plus-plus.desktop"
+        "name": "Notepad++",       
+        "flatpak": { "remote": "flathub", "id": "com.github.dail8859.NotepadNext" },
+        "desktopLauncher": "com.github.dail8859.NotepadNext.desktop",
+        "alternative": {
+            "name": "Notepad Next"
+        }
     },
     {
         "regex": {
@@ -428,6 +466,14 @@
     },
     {
         "regex": {
+            "windows": "putty(.*.installer|).*.(exe|msi)"
+        },
+        "name": "PuTTY",
+        "flatpak": { "remote": "flathub", "id": "uk.org.greenend.chiark.sgtatham.putty" },
+        "desktopLauncher": "uk.org.greenend.chiark.sgtatham.putty.desktop"
+    },
+    {
+        "regex": {
              "windows": "minecraft.*.(exe|msi)",
              "linux": "minecraft.*"
         },
@@ -450,10 +496,10 @@
             "windows": "bluestacks.*.exe"
         },
         "name": "BlueStacks",
-        "webLink": { "href": "https://www.genymotion.com/download/" },
+        "webLink": { "href": "https://www.genymotion.com/product-desktop/download/" },
         "mainMessage": "You can download Genymotion (Ubuntu package) for Zorin OS from the web",
         "alternative": {
-            "name": "Genymotion"
+            "name": "Genymotion Desktop"
         }
     },
     {
@@ -543,6 +589,25 @@
     },
     {
         "regex": {
+            "windows": "razersynapseinstaller.*.exe"
+        },
+        "name": "Razer Synapse",
+        "flatpak": { "remote": "flathub", "id": "xyz.z3ntu.razergenie" },
+        "desktopLauncher": "xyz.z3ntu.razergenie.desktop",
+        "alternative": {
+            "name": "RazerGenie"
+        }
+    },
+    {
+        "regex": {
+             "windows": "todoist.*.exe"
+        },
+        "name": "Todoist",
+        "flatpak": { "remote": "flathub", "id": "com.todoist.Todoist" },
+        "desktopLauncher": "todoist_todoist.desktop"
+    },
+    {
+        "regex": {
              "windows": "brackets.*.exe"
         },
         "name": "Brackets",
@@ -575,6 +640,14 @@
         "name": "Android Studio",
         "flatpak": { "remote": "flathub", "id": "com.google.AndroidStudio" },
         "desktopLauncher": "android-studio.desktop"
+    },
+    {
+        "regex": {
+             "windows": "arduino-ide.*.(exe|msi)"
+        },
+        "name": "Arduino IDE",
+        "flatpak": { "remote": "flathub", "id": "cc.arduino.IDE2" },
+        "desktopLauncher": "arduino.desktop"
     },
     {
         "regex": {
@@ -657,6 +730,14 @@
     },
     {
         "regex": {
+            "windows": "rpcs3.*.exe"
+        },
+        "name": "RPCS3",
+        "flatpak": { "remote": "flathub", "id": "net.rpcs3.RPCS3" },
+        "desktopLauncher": "rpcs3-emu_rpcs3.desktop"
+    },
+    {
+        "regex": {
             "windows": "citra-setup-windows.exe"
         },
         "name": "Citra",
@@ -690,7 +771,7 @@
     {
         "regex": {
             "windows": "xemu.*.exe",
-             "linux": "xemu.*"
+            "linux": "xemu.*"
         },
         "name": "Xemu",
         "flatpak": { "remote": "flathub", "id": "app.xemu.xemu" },
@@ -726,12 +807,47 @@
     },
     {
         "regex": {
+            "windows": "tor-browser.*.(exe|msi)"
+        },
+        "name": "Tor Browser",
+        "flatpak": { "remote": "flathub", "id": "org.torproject.torbrowser-launcher" }
+    },
+    {
+        "regex": {
             "windows": "ultimaker-cura.*.exe",
             "linux": "ultimaker-cura.*.linux.*"
         },
         "name": "UltiMaker Cura",
         "flatpak": { "remote": "flathub", "id": "com.ultimaker.cura" },
         "desktopLauncher": "cura.desktop"
+    },
+    {
+        "regex": {
+            "windows": "musescore.*.(exe|msi)"
+        },
+        "name": "MuseScore",
+        "flatpak": { "remote": "flathub", "id": "org.musescore.MuseScore" },
+        "desktopLauncher": "musescore.desktop"
+    },
+    {
+        "regex": {
+            "windows": "protonvpn.*.exe"
+        },
+        "name": "Proton VPN",
+        "flatpak": { "remote": "flathub", "id": "com.protonvpn.www" },
+        "desktopLauncher": "protonvpn-app.desktop"
+    },
+    {
+        "regex": {
+            "windows": "apache_openoffice.*.exe",
+            "linux": "openoffice.*"
+        },
+        "name": "Apache OpenOffice",
+        "desktopLauncher": "libreoffice-startcenter.desktop",
+        "apt": "libreoffice",
+        "alternative": {
+            "name": "LibreOffice"
+        }
     },
     {
         "regex": {
@@ -744,7 +860,15 @@
     },
     {
         "regex": {
-            "windows": "[Ww]indows.*[Ss]etup.*.exe"
+            "windows": "wps_office_inst.*.(exe|msi)"
+        },
+        "name": "WPS Office",
+        "flatpak": { "remote": "flathub", "id": "com.wps.Office" },
+        "desktopLauncher": "wps-office-wps.desktop"
+    },
+    {
+        "regex": {
+            "windows": "(windows.*(setup|install)|mediacreationtool).*.exe"
         },
         "name": "Microsoft Windows",
         "desktopLauncher": "org.gnome.Boxes.desktop",
