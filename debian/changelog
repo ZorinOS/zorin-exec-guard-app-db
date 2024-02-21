@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.2.16) jammy; urgency=medium
+
+  * Added more software to app database
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 21 Feb 2024 13:48:47 +0000
+
 zorin-exec-guard-app-db (1.2.15) jammy; urgency=medium
 
   * Added more software to app database and updated some existing

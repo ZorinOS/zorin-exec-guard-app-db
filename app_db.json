@@ -373,6 +373,22 @@
     },
     {
         "regex": {
+            "windows": "qbittorrent.*.setup.*.exe"
+        },
+        "name": "qBittorrent",
+        "flatpak": { "remote": "flathub", "id": "org.qbittorrent.qBittorrent" },
+        "desktopLauncher": "org.qbittorrent.qBittorrent.desktop"
+    },
+    {
+        "regex": {
+            "windows": "calibre.*.msi"
+        },
+        "name": "Calibre",
+        "flatpak": { "remote": "flathub", "id": "com.calibre_ebook.calibre" },
+        "desktopLauncher": "calibre-gui.desktop"
+    },
+    {
+        "regex": {
             "windows": "tsetup.*.exe"
         },
         "name": "Telegram",
@@ -839,6 +855,30 @@
     },
     {
         "regex": {
+            "windows": "photoshop.*.cs6.*.exe"
+        },
+        "name": "Adobe Photoshop CS6 installer",
+        "mainMessage": "Adobe Photoshop CS6 is available to install on PlayOnLinux",
+        "desktopLauncher": "PlayOnLinux.desktop",
+        "flatpak": { "remote": "flathub", "id": "com.playonlinux.PlayOnLinux4" },
+        "alternative": {
+            "name": "PlayOnLinux"
+        }
+    },
+    {
+        "regex": {
+            "windows": "illustrator.*.cs6.*.exe"
+        },
+        "name": "Adobe Illustrator CS6 installer",
+        "mainMessage": "Adobe Illustrator CS6 is available to install on PlayOnLinux",
+        "desktopLauncher": "PlayOnLinux.desktop",
+        "flatpak": { "remote": "flathub", "id": "com.playonlinux.PlayOnLinux4" },
+        "alternative": {
+            "name": "PlayOnLinux"
+        }
+    },
+    {
+        "regex": {
             "windows": "apache_openoffice.*.exe",
             "linux": "openoffice.*"
         },
@@ -848,6 +888,15 @@
         "alternative": {
             "name": "LibreOffice"
         }
+    },
+    {
+        "regex": {
+            "windows": "libreoffice.*.msi",
+            "linux": "libreoffice.*"
+        },
+        "name": "LibreOffice",
+        "apt": "libreoffice",
+        "desktopLauncher": "libreoffice-startcenter.desktop"
     },
     {
         "regex": {
