@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.2.17) jammy; urgency=medium
+
+  * Updated Adobe Acrobat Reader entry
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Fri, 15 Mar 2024 22:19:19 +0000
+
 zorin-exec-guard-app-db (1.2.16) jammy; urgency=medium
 
   * Added more software to app database

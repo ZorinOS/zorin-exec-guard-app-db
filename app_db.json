@@ -87,6 +87,16 @@
     },
     {
         "regex": {
+            "windows": "acrordr.*.exe"
+        },
+        "name": "Adobe Acrobat Reader",
+        "desktopLauncher": "org.gnome.Evince.desktop",
+        "alternative": {
+            "name": "Document Viewer"
+        }
+    },
+    {
+        "regex": {
             "windows": "nitro_pro.*.(exe|msi)"
         },
         "name": "Nitro PDF",
