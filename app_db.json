@@ -596,10 +596,11 @@
             "windows": "robloxplayerlauncher.*.exe"
         },
         "name": "Roblox Player Launcher",
-        "flatpak": { "remote": "flathub", "id": "net.brinkervii.grapejuice" },
-        "desktopLauncher": "grapejuice.desktop",
+        "webLink": { "href": "https://sober.vinegarhq.org/" },
+        "mainMessage": "You can install Sober (Flatpak package) for Zorin OS",
+        "desktopLauncher": "org.vinegarhq.Sober.desktop",
         "alternative": {
-            "name": "Grapejuice"
+            "name": "Sober"
         }
     },
     {
@@ -607,10 +608,11 @@
             "windows": "robloxstudiolauncher.*.exe"
         },
         "name": "Roblox Studio Launcher",
-        "flatpak": { "remote": "flathub", "id": "net.brinkervii.grapejuice" },
-        "desktopLauncher": "grapejuice.desktop",
+        "webLink": { "href": "https://sober.vinegarhq.org/" },
+        "mainMessage": "You can install Sober (Flatpak package) for Zorin OS",
+        "desktopLauncher": "org.vinegarhq.Sober.desktop",
         "alternative": {
-            "name": "Grapejuice"
+            "name": "Sober"
         }
     },
     {
