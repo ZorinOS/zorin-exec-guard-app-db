@@ -29,6 +29,14 @@
     },
     {
         "regex": {
+            "windows": "googleearthprowin.*.exe"
+        },
+        "name": "Google Earth website",
+        "webLink": { "href": "https://www.google.com/earth/about/versions/#download-pro" },
+        "mainMessage": "You can download Google Earth Pro (.deb package) for Zorin OS from the web"
+    },
+    {
+        "regex": {
              "windows": "bravebrowsersetup.*.exe"
         },
         "name": "Brave Browser",
@@ -53,10 +61,81 @@
     },
     {
         "regex": {
+             "windows": "vivaldi.*.exe"
+        },
+        "name": "Vivaldi Browser",
+        "flatpak": { "remote": "flathub", "id": "com.vivaldi.Vivaldi" },
+        "desktopLauncher": "vivaldi-stable.desktop"
+    },
+    {
+        "regex": {
+             "windows": "librewolf.*.exe"
+        },
+        "name": "LibreWolf",
+        "flatpak": { "remote": "flathub", "id": "io.gitlab.librewolf-community" },
+        "desktopLauncher": "librewolf.desktop"
+    },
+    {
+        "regex": {
+             "windows": "zen.installer.*.exe"
+        },
+        "name": "Zen Browser",
+        "flatpak": { "remote": "flathub", "id": "app.zen_browser.zen" }
+    },
+    {
+        "regex": {
+            "windows": "arcinstaller.*.exe"
+        },
+        "name": "Arc Browser",
+        "flatpak": { "remote": "flathub", "id": "app.zen_browser.zen" },
+        "alternative": {
+            "name": "Zen Browser"
+        }
+    },
+    {
+        "regex": {
+             "windows": "waterfox.*.setup.*.exe"
+        },
+        "name": "Waterfox",
+        "flatpak": { "remote": "flathub", "id": "net.waterfox.waterfox" }
+    },
+    {
+        "regex": {
+             "windows": "ungoogled-chromium.*.installer.*.exe"
+        },
+        "name": "Ungoogled Chromium",
+        "flatpak": { "remote": "flathub", "id": "io.github.ungoogled_software.ungoogled_chromium" }
+    },
+    {
+        "regex": {
+             "windows": "floorp.*.installer.*.exe"
+        },
+        "name": "Floorp",
+        "flatpak": { "remote": "flathub", "id": "one.ablaze.floorp" },
+        "desktopLauncher": "floorp.desktop"
+    },
+    {
+        "regex": {
+             "windows": "mullvad-browser-windows.*.exe"
+        },
+        "name": "Mullvad Browser",
+        "flatpak": { "remote": "flathub", "id": "net.mullvad.MullvadBrowser" },
+        "desktopLauncher": "mullvad-browser.desktop"
+    },
+    {
+        "regex": {
             "windows": "thunderbird\\s+setup.*.(exe|msi)"
         },
         "name": "Thunderbird Mail",
         "desktopLauncher": "thunderbird.desktop"
+    },
+    {
+        "regex": {
+             "windows": "nextcloud.*.msi"
+        },
+        "name": "Nextcloud",
+        "flatpak": { "remote": "flathub", "id": "com.nextcloud.desktopclient.nextcloud" },
+        "desktopLauncher": "com.nextcloud.desktopclient.nextcloud.desktop"
     },
     {
         "regex": {
@@ -77,6 +156,26 @@
     },
     {
         "regex": {
+            "windows": "googledrivesetup.*.exe"
+        },
+        "name": "Google Drive",
+        "desktopLauncher": "gnome-online-accounts-panel.desktop",
+        "alternative": {
+            "name": "Online Accounts"
+        }
+    },
+    {
+        "regex": {
+            "windows": "mpc-hc.*.exe"
+        },
+        "name": "MPC-HC",
+        "desktopLauncher": "org.gnome.Totem.desktop",
+        "alternative": {
+            "name": "Videos"
+        }
+    },
+    {
+        "regex": {
             "windows": "reader.*.exe"
         },
         "name": "Adobe Reader",
@@ -90,6 +189,26 @@
             "windows": "acrordr.*.exe"
         },
         "name": "Adobe Acrobat Reader",
+        "desktopLauncher": "org.gnome.Evince.desktop",
+        "alternative": {
+            "name": "Document Viewer"
+        }
+    },
+    {
+        "regex": {
+            "windows": "sumatrapdf.*.install.*.exe"
+        },
+        "name": "Sumatra PDF",
+        "desktopLauncher": "org.gnome.Evince.desktop",
+        "alternative": {
+            "name": "Document Viewer"
+        }
+    },
+    {
+        "regex": {
+            "windows": "foxit-pdf-reader.*.exe"
+        },
+        "name": "Foxit PDF Reader",
         "desktopLauncher": "org.gnome.Evince.desktop",
         "alternative": {
             "name": "Document Viewer"
@@ -134,6 +253,14 @@
         "alternative": {
             "name": "Pinta"
         }
+    },
+    {
+        "regex": {
+            "windows": "krita.*.setup.exe"
+        },
+        "name": "Krita",
+        "flatpak": { "remote": "flathub", "id": "org.kde.krita" },
+        "desktopLauncher": "org.kde.krita.desktop"
     },
     {
         "regex": {
@@ -260,11 +387,19 @@
     },
     {
         "regex": {
+            "windows": "inkscape.*.(exe|msi)"
+        },
+        "name": "Inkscape",
+        "flatpak": { "remote": "flathub", "id": "org.inkscape.Inkscape" },
+        "desktopLauncher": "org.inkscape.Inkscape.desktop"
+    },
+    {
+        "regex": {
             "windows": "affinity-designer.*.exe"
         },
         "name": "Affinity Designer",
         "flatpak": { "remote": "flathub", "id": "org.inkscape.Inkscape" },
-        "desktopLauncher": "inkscape.desktop",
+        "desktopLauncher": "org.inkscape.Inkscape.desktop",
         "alternative": {
             "name": "Inkscape"
         }
@@ -308,6 +443,22 @@
     },
     {
         "regex": {
+            "windows": "notion.*.setup.*.exe"
+        },
+        "name": "Notion",
+        "webLink": { "href": "https://www.notion.so/login" },
+        "mainMessage": "You can use Notion on the web"
+    },
+    {
+        "regex": {
+            "windows": "evernote-latest.*.exe"
+        },
+        "name": "Evernote",
+        "webLink": { "href": "https://accounts.evernote.com/login" },
+        "mainMessage": "You can use Evernote on the web"
+    },
+    {
+        "regex": {
             "windows": "canva.*.setup.*.exe"
         },
         "name": "Canva",
@@ -342,6 +493,52 @@
     },
     {
         "regex": {
+            "windows": "lastpassinstaller.*.exe"
+        },
+        "name": "LastPass website",
+        "webLink": { "href": "https://lastpass.com/lplinux.php" },
+        "mainMessage": "You can install LastPass (Linux installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "bitwarden.*.exe",
+            "linux": "bitwarden.*"
+        },
+        "name": "Bitwarden",
+        "flatpak": { "remote": "flathub", "id": "com.bitwarden.desktop" },
+        "desktopLauncher": "bitwarden.desktop"
+    },
+    {
+        "regex": {
+            "windows": "keepassxc.*.msi"
+        },
+        "name": "KeePassXC",
+        "apt": "keepassxc",
+        "flatpak": { "remote": "flathub", "id": "org.keepassxc.KeePassXC" },
+        "desktopLauncher": "org.keepassxc.KeePassXC.desktop"
+    },
+    {
+        "regex": {
+            "windows": "keepass.*.setup.*.exe"
+        },
+        "name": "KeePass",
+        "apt": "keepassxc",
+        "flatpak": { "remote": "flathub", "id": "org.keepassxc.KeePassXC" },
+        "desktopLauncher": "org.keepassxc.KeePassXC.desktop",
+        "alternative": {
+            "name": "KeePassXC"
+        }
+    },
+    {
+        "regex": {
+            "windows": "anytype.*.setup.*.exe"
+        },
+        "name": "Anytype",
+        "flatpak": { "remote": "flathub", "id": "io.anytype.anytype" },
+        "desktopLauncher": "anytype.desktop"
+    },
+    {
+        "regex": {
             "windows": "filezilla.*.exe"
         },
         "name": "FileZilla",
@@ -356,6 +553,23 @@
         "name": "Kodi",
         "flatpak": { "remote": "flathub", "id": "tv.kodi.Kodi" },
         "desktopLauncher": "kodi.desktop"
+    },
+    {
+        "regex": {
+            "windows": "stremiosetup.*.exe",
+            "linux": "stremio.*"
+        },
+        "name": "Stremio",
+        "flatpak": { "remote": "flathub", "id": "com.stremio.Stremio" },
+        "desktopLauncher": "smartcode-stremio.desktop"
+    },
+    {
+        "regex": {
+            "windows": "draw.io.*.windows-installer.*.exe"
+        },
+        "name": "draw.io",
+        "flatpak": { "remote": "flathub", "id": "com.jgraph.drawio.desktop" },
+        "desktopLauncher": "drawio.desktop"
     },
     {
         "regex": {
@@ -399,11 +613,34 @@
     },
     {
         "regex": {
+            "windows": "obsidian.*.exe"
+        },
+        "name": "Obsidian",
+        "flatpak": { "remote": "flathub", "id": "md.obsidian.Obsidian" },
+        "desktopLauncher": "obsidian.desktop"
+    },
+    {
+        "regex": {
+            "windows": "joplin-setup.*.exe"
+        },
+        "name": "Joplin",
+        "flatpak": { "remote": "flathub", "id": "net.cozic.joplin_desktop" }
+    },
+    {
+        "regex": {
             "windows": "tsetup.*.exe"
         },
         "name": "Telegram",
         "flatpak": { "remote": "flathub", "id": "org.telegram.desktop" },
         "desktopLauncher": "telegramdesktop.desktop"
+    },
+    {
+        "regex": {
+            "windows": "signalsetup.*.exe"
+        },
+        "name": "Signal",
+        "flatpak": { "remote": "flathub", "id": "org.signal.Signal" },
+        "desktopLauncher": "signal-desktop.desktop"
     },
     {
         "regex": {
@@ -413,6 +650,14 @@
         "name": "Discord",
         "flatpak": { "remote": "flathub", "id": "com.discordapp.Discord" },
         "desktopLauncher": "discord.desktop"
+    },
+    {
+        "regex": {
+            "windows": "element.*.setup.*.exe"
+        },
+        "name": "Element",
+        "flatpak": { "remote": "flathub", "id": "im.riot.Riot" },
+        "desktopLauncher": "element-desktop.desktop"
     },
     {
         "regex": {
@@ -509,12 +754,33 @@
     },
     {
         "regex": {
+             "windows": "bleachbit.*.setup.*.exe"
+        },
+        "name": "BleachBit",
+        "apt": "bleachbit",
+        "flatpak": { "remote": "flathub", "id": "org.bleachbit.BleachBit" },
+        "desktopLauncher": "org.bleachbit.BleachBit.desktop"
+    },
+    {
+        "regex": {
             "windows": "ccsetup.*.exe"
         },
         "name": "CCleaner",
-        "desktopLauncher": "stacer.desktop",
+        "apt": "bleachbit",
+        "flatpak": { "remote": "flathub", "id": "org.bleachbit.BleachBit" },
+        "desktopLauncher": "org.bleachbit.BleachBit.desktop",
         "alternative": {
-            "name": "Stacer"
+            "name": "BleachBit"
+        }
+    },
+    {
+        "regex": {
+            "windows": "windirstat.*.msi"
+        },
+        "name": "WinDirStat",
+        "desktopLauncher": "org.gnome.baobab.desktop",
+        "alternative": {
+            "name": "Disk Usage Analyzer"
         }
     },
     {
@@ -687,6 +953,14 @@
     },
     {
         "regex": {
+             "windows": "handbrake.*.exe"
+        },
+        "name": "HandBrake",
+        "flatpak": { "remote": "flathub", "id": "fr.handbrake.ghb" },
+        "desktopLauncher": "fr.handbrake.ghb.desktop"
+    },
+    {
+        "regex": {
              "windows": "bitcoin-.*.-setup.exe"
         },
         "name": "Bitcoin Core",
@@ -818,7 +1092,7 @@
     },
     {
         "regex": {
-            "windows": "vscodeusersetup.*.exe",
+            "windows": "(vscodesetup|vscodeusersetup).*.exe",
             "linux": "code.*"
         },
         "name": "Visual Studio Code",
@@ -827,11 +1101,68 @@
     },
     {
         "regex": {
+            "windows": "(vscodiumsetup|vscodiumusersetup).*.exe",
+            "linux": "codium.*"
+        },
+        "name": "VSCodium",
+        "flatpak": { "remote": "flathub", "id": "com.vscodium.codium." },
+        "desktopLauncher": "codium.desktop"
+    },
+    {
+        "regex": {
+            "windows": "sublime_text.*.setup.exe"
+        },
+        "name": "Sublime Text",
+        "flatpak": { "remote": "flathub", "id": "com.sublimetext.three" },
+        "desktopLauncher": "sublime_text.desktop"
+    },
+    {
+        "regex": {
+            "windows": "eclipse.exe"
+        },
+        "name": "Eclipse IDE",
+        "flatpak": { "remote": "flathub", "id": "org.eclipse.Java" }
+    },
+    {
+        "regex": {
+             "windows": "gvim.*.exe"
+        },
+        "name": "VIM",
+        "apt": "vim",
+        "flatpak": { "remote": "flathub", "id": "org.vim.Vim" },
+        "desktopLauncher": "vim.desktop"
+    },
+    {
+        "regex": {
+             "windows": "emacs.*.installer.exe"
+        },
+        "name": "GNU Emacs",
+        "apt": "emacs",
+        "flatpak": { "remote": "flathub", "id": "org.gnu.emacs" },
+        "desktopLauncher": "emacs.desktop"
+    },
+    {
+        "regex": {
+             "windows": "git-.*.exe"
+        },
+        "name": "Git",
+        "apt": "git"
+    },
+    {
+        "regex": {
             "windows": "githubdesktopsetup.*.(exe|msi)"
         },
         "name": "GitHub Desktop",
         "flatpak": { "remote": "flathub", "id": "io.github.shiftey.Desktop" },
         "desktopLauncher": "githubdesktop.desktop"
+    },
+    {
+        "regex": {
+            "windows": "jdownloader2setup.*.exe"
+        },
+        "name": "JDownloader",
+        "flatpak": { "remote": "flathub", "id": "org.jdownloader.JDownloader" },
+        "desktopLauncher": "jdownloader2_JDownloader.desktop"
     },
     {
         "regex": {
@@ -859,11 +1190,105 @@
     },
     {
         "regex": {
+            "windows": "protonmail.*.exe"
+        },
+        "name": "Proton Mail",
+        "flatpak": { "remote": "flathub", "id": "me.proton.Mail" },
+        "desktopLauncher": "proton-mail.desktop"
+    },
+    {
+        "regex": {
             "windows": "protonvpn.*.exe"
         },
         "name": "Proton VPN",
         "flatpak": { "remote": "flathub", "id": "com.protonvpn.www" },
         "desktopLauncher": "protonvpn-app.desktop"
+    },
+    {
+        "regex": {
+            "windows": "protonpass.*.setup.*.exe"
+        },
+        "name": "Proton Pass",
+        "flatpak": { "remote": "flathub", "id": "me.proton.Pass" },
+        "desktopLauncher": "proton-pass.desktop"
+    },
+    {
+        "regex": {
+            "windows": "proton.*.drive.*.setup.*.exe"
+        },
+        "name": "Proton Drive",
+        "webLink": { "href": "https://account.proton.me/drive" },
+        "mainMessage": "You can use Proton Drive on the web"
+    },
+    {
+        "regex": {
+            "windows": "surfsharksetup.*.exe"
+        },
+        "name": "Surfshark VPN",
+        "flatpak": { "remote": "flathub", "id": "com.surfshark.Surfshark" },
+        "desktopLauncher": "surfshark.desktop"
+    },
+    {
+        "regex": {
+            "windows": "purevpn_setup.*.exe"
+        },
+        "name": "PureVPN",
+        "desktopLauncher": "purevpn.desktop"
+    },
+    {
+        "regex": {
+            "windows": "nordinstaller.*.exe"
+        },
+        "name": "NordVPN",
+        "desktopLauncher": "nordvpn.desktop"
+    },
+    {
+        "regex": {
+            "windows": "expressvpn.*.windows.*.release.*.exe"
+        },
+        "name": "ExpressVPN website",
+        "webLink": { "href": "https://www.expressvpn.com/support/vpn-setup/app-for-linux/" },
+        "mainMessage": "You can install ExpressVPN (Universal Installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "mullvadvpn.*.exe"
+        },
+        "name": "Mullvad VPN website",
+        "webLink": { "href": "https://mullvad.net/download/vpn/linux" },
+        "mainMessage": "You can install Mullvad VPN (Ubuntu/Debian repository) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "tunnelbear-installer.*.exe"
+        },
+        "name": "TunnelBear VPN website",
+        "webLink": { "href": "https://www.tunnelbear.com/blog/setting-up-tunnelbear-on-linux/" },
+        "mainMessage": "You can install TunnelBear VPN (Linux instructions) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "pia-windows.*.exe"
+        },
+        "name": "Private Internet Access website",
+        "webLink": { "href": "https://www.privateinternetaccess.com/download/linux-vpn" },
+        "mainMessage": "You can install Private Internet Access VPN (Linux app) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "ipvanish-setup.*.exe"
+        },
+        "name": "IPVanish VPN website",
+        "webLink": { "href": "https://support.ipvanish.com/hc/en-us/articles/31805500046235-OpenVPN-setup-in-Ubuntu" },
+        "mainMessage": "You can install IPVanish VPN (Ubuntu instructions) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "cyberghostvpnsetup.*.exe"
+        },
+        "name": "CyberGhost VPN website",
+        "webLink": { "href": "https://www.cyberghostvpn.com/download/linux-vpn" },
+        "mainMessage": "You can install CyberGhost VPN (Linux/Ubuntu installer) for Zorin OS from the web"
     },
     {
         "regex": {
@@ -926,6 +1351,25 @@
         "name": "WPS Office",
         "flatpak": { "remote": "flathub", "id": "com.wps.Office" },
         "desktopLauncher": "wps-office-wps.desktop"
+    },
+    {
+        "regex": {
+            "windows": "virtualbox.*.win.exe"
+        },
+        "name": "VirtualBox",
+        "apt": "virtualbox",
+        "desktopLauncher": "virtualbox.desktop"
+    },
+    {
+        "regex": {
+            "windows": "rufus.*.exe"
+        },
+        "name": "Rufus",
+        "desktopLauncher": "com.system76.Popsicle.desktop",
+        "flatpak": { "remote": "flathub", "id": "com.system76.Popsicle" },
+        "alternative": {
+            "name": "Popsicle"
+        }
     },
     {
         "regex": {
