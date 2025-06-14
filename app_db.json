@@ -707,6 +707,13 @@
     },
     {
         "regex": {
+            "windows": "geany.*.setup.*.exe"
+        },
+        "name": "Geany",
+        "apt": "geany"
+    },
+    {
+        "regex": {
             "windows": "winrar.*.exe"
         },
         "name": "WinRAR",
@@ -1125,6 +1132,14 @@
     },
     {
         "regex": {
+            "windows": "jgrasp.*.exe"
+        },
+        "name": "jGRASP website",
+        "webLink": { "href": "https://spider.eng.auburn.edu/user-cgi/grasp/grasp.pl?;dl=download_jgrasp.html" },
+        "mainMessage": "You can download jGRASP (.zip package for Linux) for Zorin OS from the web"
+    },
+    {
+        "regex": {
              "windows": "gvim.*.exe"
         },
         "name": "VIM",
@@ -1373,6 +1388,14 @@
     },
     {
         "regex": {
+            "windows": "balenaetcher.*.setup.exe"
+        },
+        "name": "balenaEtcher website",
+        "webLink": { "href": "https://etcher.balena.io/#download-etcher" },
+        "mainMessage": "You can download balenaEtcher (.zip 64-bit package for Linux) for Zorin OS from the web"
+    },
+    {
+        "regex": {
             "windows": "(windows.*(setup|install)|mediacreationtool).*.exe"
         },
         "name": "Microsoft Windows",
@@ -1382,5 +1405,13 @@
         "alternative": {
             "name": "GNOME Boxes"
         }
+   },
+    {
+        "regex": {
+            "windows": "citrixworkspace.*.exe"
+        },
+        "name": "Citrix website",
+        "webLink": { "href": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html" },
+        "mainMessage": "You can download Citrix Workspace (.deb package) for Zorin OS from the web"
    }
 ]
