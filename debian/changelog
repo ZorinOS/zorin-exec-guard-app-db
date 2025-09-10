@@ -1,3 +1,15 @@
+zorin-exec-guard-app-db (1.4) noble; urgency=medium
+
+  * Added many new apps
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 10 Sep 2025 21:58:20 +0100
+
+zorin-exec-guard-app-db (1.3.1+1) noble; urgency=medium
+
+  * Uploaded to Zorin OS 18 repositories
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 14 Jun 2025 19:10:43 +0100
+
 zorin-exec-guard-app-db (1.3.1) jammy; urgency=medium
 
   * Added four more apps
