@@ -406,6 +406,17 @@
     },
     {
         "regex": {
+            "windows": "creative.*.cloud.*.set-up.*.(exe|msi)"
+        },
+        "name": "Adobe Creative Cloud",
+        "webLink": { "href": "https://www.adobe.com/apps" },
+        "mainMessage": "You can use many Adobe apps on the web",
+        "alternative": {
+            "name": "Adobe Creative Cloud on the web"
+        }
+    },
+    {
+        "regex": {
             "windows": "affinity-photo.*.exe"
         },
         "name": "Affinity Photo",
@@ -1520,6 +1531,14 @@
     },
     {
         "regex": {
+            "windows": "citrixworkspace.*.exe"
+        },
+        "name": "Citrix website",
+        "webLink": { "href": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html" },
+        "mainMessage": "You can download Citrix Workspace (.deb package) for Zorin OS from the web"
+    },
+    {
+        "regex": {
             "windows": "(windows.*(setup|install)|mediacreationtool).*.exe"
         },
         "name": "Microsoft Windows",
@@ -1529,13 +1548,5 @@
         "alternative": {
             "name": "GNOME Boxes"
         }
-   },
-    {
-        "regex": {
-            "windows": "citrixworkspace.*.exe"
-        },
-        "name": "Citrix website",
-        "webLink": { "href": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html" },
-        "mainMessage": "You can download Citrix Workspace (.deb package) for Zorin OS from the web"
    }
 ]
