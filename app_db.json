@@ -409,8 +409,8 @@
             "windows": "creative.*.cloud.*.set-up.*.(exe|msi)"
         },
         "name": "Adobe Creative Cloud",
-        "webLink": { "href": "https://www.adobe.com/apps" },
-        "mainMessage": "You can use many Adobe apps on the web",
+        "webLink": { "href": "https://www.adobe.com/apps/all/web" },
+        "mainMessage": "You can use some Adobe apps on the web",
         "alternative": {
             "name": "Adobe Creative Cloud on the web"
         }
