@@ -1069,8 +1069,8 @@
             "windows": ".*flash.*player.*.exe",
             "linux": "flash-player.*"
         },
-        "mainMessage": "Flash Player is no longer supported",
-        "noButton": true
+	"webLink": { "href": "https://bluemaxima.org/flashpoint/datahub/Linux_Support#Release" },
+        "mainMessage": "Flash Player is no longer supported. You can install BlueMaxima's Flashpoint (Ubuntu package) to enjoy most flash content on Zorin OS. Alternativey, the Ruffle plugin can be used on Firefox and Chrome browsers to emulate Flash content."
     },
     {
         "regex": {
