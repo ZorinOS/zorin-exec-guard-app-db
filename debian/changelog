@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.4.2) noble; urgency=medium
+
+  * Added LINE and updated other apps
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Sat, 27 Sep 2025 20:07:16 +0100
+
 zorin-exec-guard-app-db (1.4.1) noble; urgency=medium
 
   * Added Adobe Creative Cloud

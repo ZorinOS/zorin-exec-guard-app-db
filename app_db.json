@@ -278,10 +278,10 @@
             "windows": "flstudio.*.exe"
         },
         "name": "FL Studio",
-        "flatpak": { "remote": "flathub", "id": "io.lmms.LMMS" },
-        "desktopLauncher": "lmms.desktop",
+        "flatpak": { "remote": "flathub", "id": "org.ardour.Ardour" },
+        "desktopLauncher": "ardour.desktop",
         "alternative": {
-            "name": "LMMS"
+            "name": "Ardour"
         }
     },
     {
@@ -484,6 +484,14 @@
     },
     {
         "regex": {
+            "windows": "lineinst.*.exe"
+        },
+        "name": "LINE",
+        "webLink": { "href": "https://chrome.google.com/webstore/detail/line/ophjlpahpchlmihnnnihgmmeilfjmjjc" },
+        "mainMessage": "You can use LINE as a web browser extension"
+    },
+    {
+        "regex": {
             "windows": "notion.*.setup.*.exe"
         },
         "name": "Notion",
@@ -669,7 +677,7 @@
     },
     {
         "regex": {
-            "windows": "tsetup.*.exe"
+            "windows": "(tsetup|telegram).*.exe"
         },
         "name": "Telegram",
         "flatpak": { "remote": "flathub", "id": "org.telegram.desktop" },
@@ -1069,8 +1077,11 @@
             "windows": ".*flash.*player.*.exe",
             "linux": "flash-player.*"
         },
-        "mainMessage": "Flash Player is no longer supported",
-        "noButton": true
+        "name": "Adobe Flash Player",
+        "flatpak": { "remote": "flathub", "id": "rs.ruffle.Ruffle" },
+        "alternative": {
+            "name": "Ruffle"
+        }
     },
     {
         "regex": {
