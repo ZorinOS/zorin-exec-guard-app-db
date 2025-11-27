@@ -962,9 +962,9 @@
             "windows": "robloxstudiolauncher.*.exe"
         },
         "name": "Roblox Studio Launcher",
-        "flatpak": { "remote": "flathub", "id": "org.vinegarhq.Sober" },
+        "flatpak": { "remote": "flathub", "id": "org.vinegarhq.Vinegar" },
         "alternative": {
-            "name": "Sober"
+            "name": "Vinegar"
         }
     },
     {

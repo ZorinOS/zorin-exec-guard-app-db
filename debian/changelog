@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.4.4) noble; urgency=medium
+
+  * Added Vinegar as an alternative to Roblox Studio
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 27 Nov 2025 19:31:51 +0000
+
 zorin-exec-guard-app-db (1.4.3) noble; urgency=medium
 
   * Updated Sober listings
