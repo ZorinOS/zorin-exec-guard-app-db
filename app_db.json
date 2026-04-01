@@ -615,6 +615,14 @@
     },
     {
         "regex": {
+            "windows": "capcut.*.installer.*.exe"
+        },
+        "name": "CapCut",
+        "webLink": { "href": "https://www.capcut.com/login" },
+        "mainMessage": "You can use CapCut on the web"
+    },
+    {
+        "regex": {
             "windows": "lightworks_windows.*.exe"
         },
         "name": "Lightworks",
@@ -2114,9 +2122,12 @@
         "regex": {
             "windows": "citrixworkspace.*.exe"
         },
-        "name": "Citrix website",
-        "webLink": { "href": "https://www.citrix.com/downloads/workspace-app/linux/workspace-app-for-linux-latest.html" },
-        "mainMessage": "You can download Citrix Workspace (.deb package) for Zorin OS from the web"
+        "name": "Citrix Workspace",
+        "webLink": { "href": "https://help.zorin.com/docs/apps-games/install-citrix-workspace/" },
+        "mainMessage": "Learn how to install Citrix Workspace in Zorin OS",
+        "alternative": {
+            "name": "Citrix Workspace installation instructions"
+        }
     },
     {
         "regex": {

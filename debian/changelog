@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.5.1) noble; urgency=medium
+
+  * Added CapCut and updated Citrix Workspace listing
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Thu, 02 Apr 2026 00:53:58 +0100
+
 zorin-exec-guard-app-db (1.5) noble; urgency=medium
 
   * Added many new apps, now totalling over 230
