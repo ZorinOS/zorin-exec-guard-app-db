@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.5) noble; urgency=medium
+
+  * Added many new apps, now totalling over 230
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Wed, 01 Apr 2026 21:08:09 +0100
+
 zorin-exec-guard-app-db (1.4.4) noble; urgency=medium
 
   * Added Vinegar as an alternative to Roblox Studio

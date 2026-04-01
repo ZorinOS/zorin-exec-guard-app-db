@@ -53,6 +53,14 @@
     },
     {
         "regex": {
+             "windows": "operagxsetup.*.exe"
+        },
+        "name": "Opera GX website",
+        "webLink": { "href": "https://www.opera.com/gx" },
+        "mainMessage": "You can download Opera GX (.deb package) for Zorin OS from the web"
+    },
+    {
+        "regex": {
              "windows": "opera(.*.|)setup.*.(exe|msi)"
         },
         "name": "Opera",
@@ -94,6 +102,17 @@
     },
     {
         "regex": {
+            "windows": ".*.samsungbrowsersetup.*.exe"
+        },
+        "name": "Samsung Browser",
+        "flatpak": { "remote": "flathub", "id": "com.brave.Browser" },
+        "desktopLauncher": "brave-browser.desktop",
+        "alternative": {
+            "name": "Brave Browser"
+        }
+    },
+    {
+        "regex": {
              "windows": "waterfox.*.setup.*.exe"
         },
         "name": "Waterfox",
@@ -131,6 +150,25 @@
     },
     {
         "regex": {
+            "windows": "outlook.*.for.*.windows.*.installer.*.exe"
+        },
+        "name": "Outlook for Windows",
+        "desktopLauncher": "org.gnome.Evolution.desktop",
+        "apt": "evolution",
+        "alternative": {
+            "name": "Evolution"
+        }
+    },
+    {
+        "regex": {
+            "windows": "mailspringsetup.*.exe"
+        },
+        "name": "Mailspring",
+        "flatpak": { "remote": "flathub", "id": "com.getmailspring.Mailspring" },
+        "desktopLauncher": "Mailspring.desktop"
+    },
+    {
+        "regex": {
              "windows": "nextcloud.*.msi"
         },
         "name": "Nextcloud",
@@ -162,6 +200,16 @@
         "desktopLauncher": "gnome-online-accounts-panel.desktop",
         "alternative": {
             "name": "Online Accounts"
+        }
+    },
+    {
+        "regex": {
+            "windows": "flux-setup.exe"
+        },
+        "name": "f.lux",
+        "desktopLauncher": "gnome-display-panel.desktop",
+        "alternative": {
+            "name": "Night Light"
         }
     },
     {
@@ -226,7 +274,40 @@
     },
     {
         "regex": {
-            "windows": "spotifysetup.*.exe"
+            "windows": "abbyy_finereader_pdf.*.(exe|msi)"
+        },
+        "name": "ABBYY FineReader PDF",
+        "webLink": { "href": "https://www.naps2.com/download" },
+        "mainMessage": "You can download NAPS2 (Linux .deb installer) for Zorin OS from the web",
+        "alternative": {
+            "name": "NAPS2"
+        }
+    },
+    {
+        "regex": {
+            "windows": "foobar2000.*.exe"
+        },
+        "name": "foobar2000",
+        "flatpak": { "remote": "flathub", "id": "org.strawberrymusicplayer.strawberry" },
+        "desktopLauncher": "org.strawberrymusicplayer.strawberry.desktop",
+        "alternative": {
+            "name": "Strawberry Music Player"
+        }
+    },
+    {
+        "regex": {
+            "windows": "winamp.*.exe"
+        },
+        "name": "Winamp",
+        "flatpak": { "remote": "flathub", "id": "org.atheme.audacious" },
+        "desktopLauncher": "audacious.desktop",
+        "alternative": {
+            "name": "Audacious"
+        }
+    },
+    {
+        "regex": {
+            "windows": "(spotifysetup|spotify.*.installer).*.exe"
         },
         "name": "Spotify",
         "flatpak": { "remote": "flathub", "id": "com.spotify.Client" },
@@ -234,14 +315,68 @@
     },
     {
         "regex": {
-            "windows": "itunes.*setup.exe"
+            "windows": "apple.*.music.*.installer.exe"
+        },
+        "name": "Apple Music",
+        "webLink": { "href": "https://music.apple.com/" },
+        "mainMessage": "You can use Apple Music on the web"
+    },
+    {
+        "regex": {
+            "windows": "(itunes.*setup|itunes.*.installer).exe"
         },
         "name": "Apple iTunes",
-        "flatpak": { "remote": "flathub", "id": "sh.cider.Cider" },
-        "desktopLauncher": "cider.desktop",
+        "webLink": { "href": "https://music.apple.com/" },
+        "mainMessage": "You can use Apple Music on the web",
         "alternative": {
-            "name": "Cider"
+            "name": "Apple Music"
         }
+    },
+    {
+        "regex": {
+            "windows": "amazonmusicinstaller.*.exe"
+        },
+        "name": "Amazon Music",
+        "webLink": { "href": "https://music.amazon.com/" },
+        "mainMessage": "You can use Amazon Music on the web"
+    },
+    {
+        "regex": {
+            "windows": "picard-setup.*.exe"
+        },
+        "name": " MusicBrainz Picard",
+        "flatpak": { "remote": "flathub", "id": "org.musicbrainz.Picard" },
+        "desktopLauncher": "org.musicbrainz.Picard.desktop"
+    },
+    {
+        "regex": {
+            "windows": "(plexmediaserver|plex.*.media.*.server.*.installer).*.exe"
+        },
+        "name": "Plex Media Server download page",
+        "webLink": { "href": "https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux#plex-media-server" },
+        "mainMessage": "You can download Pled Media Server (Ubuntu .deb package) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "(plex|plex.*.for.*.windows.*.installer).*.exe"
+        },
+        "name": "Plex",
+        "flatpak": { "remote": "flathub", "id": "tv.plex.PlexDesktop" },
+        "desktopLauncher": "plex-desktop_plex-desktop.desktop"
+    },
+    {
+        "regex": {
+            "windows": "jellyfin-desktop.*.exe"
+        },
+        "name": "Jellyfin Desktop",
+        "flatpak": { "remote": "flathub", "id": "org.jellyfin.JellyfinDesktop" }
+    },
+    {
+        "regex": {
+            "windows": "jellyfin.*.windows.*.exe"
+        },
+        "name": "Jellyfin Server",
+        "flatpak": { "remote": "flathub", "id": "org.jellyfin.JellyfinServer" }
     },
     {
         "regex": {
@@ -376,6 +511,14 @@
     },
     {
         "regex": {
+             "windows": "geforcenow-release.*.exe"
+        },
+        "name": "GeForce NOW website",
+        "webLink": { "href": "https://www.nvidia.com/en-us/geforce-now/download/" },
+        "mainMessage": "You can download NVIDIA GeForce NOW (Linux installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
             "windows": "antimicro.*.win64.*.msi"
         },
         "name": "AntiMicro",
@@ -406,7 +549,7 @@
     },
     {
         "regex": {
-            "windows": "creative.*.cloud.*.set-up.*.(exe|msi)"
+            "windows": "(creative.*.cloud.*.set-up|adobe.*.creative.*.cloud.*.installer).*.(exe|msi)"
         },
         "name": "Adobe Creative Cloud",
         "webLink": { "href": "https://www.adobe.com/apps/all/web" },
@@ -417,9 +560,97 @@
     },
     {
         "regex": {
+            "windows": "adobe.*.photoshop.*.installer.*.exe"
+        },
+        "name": "Adobe Photoshop",
+        "webLink": { "href": "https://www.adobe.com/apps/all/web" },
+        "mainMessage": "You can use Adobe Photoshop on the web",
+        "alternative": {
+            "name": "Adobe Creative Cloud on the web"
+        }
+    },
+    {
+        "regex": {
+            "windows": "adobe.*.lightroom.*.installer.*.exe"
+        },
+        "name": "Adobe Lightroom",
+        "webLink": { "href": "https://www.adobe.com/apps/all/web" },
+        "mainMessage": "You can use Adobe Lightroom on the web",
+        "alternative": {
+            "name": "Adobe Creative Cloud on the web"
+        }
+    },
+    {
+        "regex": {
+            "windows": "adobe.*.illustrator.*.installer.*.exe"
+        },
+        "name": "Adobe Illustrator",
+        "webLink": { "href": "https://www.adobe.com/apps/all/web" },
+        "mainMessage": "You can use Adobe Illustrator on the web",
+        "alternative": {
+            "name": "Adobe Creative Cloud on the web"
+        }
+    },
+    {
+        "regex": {
+            "windows": "adobe.*.premiere.*.installer.*.exe"
+        },
+        "name": "Adobe Premiere",
+        "flatpak": { "remote": "flathub", "id": "org.kde.kdenlive" },
+        "desktopLauncher": "org.kde.kdenlive.desktop",
+        "alternative": {
+            "name": "Kdenlive"
+        }
+    },
+    {
+        "regex": {
+            "windows": "vegas.*.pro.*.exe"
+        },
+        "name": "VEGAS Pro",
+        "flatpak": { "remote": "flathub", "id": "org.kde.kdenlive" },
+        "desktopLauncher": "org.kde.kdenlive.desktop",
+        "alternative": {
+            "name": "Kdenlive"
+        }
+    },
+    {
+        "regex": {
+            "windows": "lightworks_windows.*.exe"
+        },
+        "name": "Lightworks",
+        "webLink": { "href": "https://lwks.com/pricing" },
+        "mainMessage": "You can download Lightworks (Linux .deb package) for Zorin OS from the web",
+        "alternative": {
+            "name": "Lightworks website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "davinci.*.resolve.*.windows.*.exe"
+        },
+        "name": "DaVinci Resolve",
+        "webLink": { "href": "https://help.zorin.com/docs/apps-games/install-davinci-resolve/" },
+        "mainMessage": "Learn how to install DaVinci Resolve for Linux in Zorin OS",
+        "alternative": {
+            "name": "DaVinci Resolve installation instructions"
+        }
+    },
+    {
+        "regex": {
             "windows": "affinity-photo.*.exe"
         },
         "name": "Affinity Photo",
+        "flatpak": { "remote": "flathub", "id": "org.gimp.GIMP" },
+        "desktopLauncher": "gimp.desktop",
+        "alternative": {
+            "name": "GNU Image Manipulation Program"
+        }
+    },
+    {
+        "regex": {
+            "windows": "photoscape.*.exe"
+        },
+        "name": "Photoscape",
         "flatpak": { "remote": "flathub", "id": "org.gimp.GIMP" },
         "desktopLauncher": "gimp.desktop",
         "alternative": {
@@ -457,6 +688,44 @@
     },
     {
         "regex": {
+            "windows": "figmasetup.*.exe"
+        },
+        "name": "Figma",
+        "webLink": { "href": "https://www.figma.com/login" },
+        "mainMessage": "You can use Figma on the web"
+    },
+    {
+        "regex": {
+            "windows": "iview.*.setup.*.exe"
+        },
+        "name": "IrfanView",
+        "flatpak": { "remote": "flathub", "id": "com.xnview.XnViewMP" },
+        "desktopLauncher": "XnView.desktop",
+        "alternative": {
+            "name": "XnView MP"
+        }
+    },
+    {
+        "regex": {
+            "windows": "xnviewmp-win.*.exe"
+        },
+        "name": "XnView MP",
+        "flatpak": { "remote": "flathub", "id": "com.xnview.XnViewMP" },
+        "desktopLauncher": "XnView.desktop"
+    },
+    {
+        "regex": {
+            "windows": "xnview-win.*.exe"
+        },
+        "name": "XnView MP",
+        "flatpak": { "remote": "flathub", "id": "com.xnview.XnViewMP" },
+        "desktopLauncher": "XnView.desktop",
+        "alternative": {
+            "name": "XnView MP"
+        }
+    },
+    {
+        "regex": {
             "windows": "cinema4d.*.exe"
         },
         "name": "Cinema 4D",
@@ -484,6 +753,14 @@
     },
     {
         "regex": {
+            "windows": "vibersetup.*.exe"
+        },
+        "name": "Viber",
+        "flatpak": { "remote": "flathub", "id": "com.viber.Viber" },
+        "desktopLauncher": "viber.desktop"
+    },
+    {
+        "regex": {
             "windows": "lineinst.*.exe"
         },
         "name": "LINE",
@@ -500,11 +777,51 @@
     },
     {
         "regex": {
+            "windows": "grammarlyinstaller.*.exe"
+        },
+        "name": "Grammarly",
+        "webLink": { "href": "https://www.grammarly.com/" },
+        "mainMessage": "You can use Grammarly on the web"
+    },
+    {
+        "regex": {
+            "windows": "trello.*.installer.*.exe"
+        },
+        "name": "Trello",
+        "webLink": { "href": "https://trello.com/" },
+        "mainMessage": "You can use Trello on the web"
+    },
+    {
+        "regex": {
             "windows": "evernote-latest.*.exe"
         },
         "name": "Evernote",
         "webLink": { "href": "https://accounts.evernote.com/login" },
         "mainMessage": "You can use Evernote on the web"
+    },
+    {
+        "regex": {
+            "windows": "standard-notes.*.exe"
+        },
+        "name": "Standard Notes",
+        "flatpak": { "remote": "flathub", "id": "org.standardnotes.standardnotes" },
+        "desktopLauncher": "org.standardnotes.standardnotes.desktop"
+    },
+    {
+        "regex": {
+            "windows": "simplenote.*.(win|installer).*.exe"
+        },
+        "name": "Simplenote",
+        "flatpak": { "remote": "flathub", "id": "com.simplenote.Simplenote" },
+        "desktopLauncher": "simplenote.desktop"
+    },
+    {
+        "regex": {
+            "windows": "xmind-for-windows.*.exe"
+        },
+        "name": "Xmind",
+        "flatpak": { "remote": "flathub", "id": "net.xmind.XMind" },
+        "desktopLauncher": "xmind.desktop"
     },
     {
         "regex": {
@@ -594,6 +911,38 @@
         "apt": "filezilla",
         "flatpak": { "remote": "flathub", "id": "org.filezillaproject.Filezilla" },
         "desktopLauncher": "filezilla.desktop"
+    },
+    {
+        "regex": {
+            "windows": "winscp.*.setup.*.exe"
+        },
+        "name": "WinSCP",
+        "apt": "filezilla",
+        "flatpak": { "remote": "flathub", "id": "org.filezillaproject.Filezilla" },
+        "desktopLauncher": "filezilla.desktop",
+        "alternative": {
+            "name": "FileZilla"
+        }
+    },
+    {
+        "regex": {
+            "windows": "bcompare.*.(exe|msi)"
+        },
+        "name": "Beyond Compare website",
+        "webLink": { "href": "https://www.scootersoftware.com/download" },
+        "mainMessage": "You can download Beyond Compare (Linux Debian installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+            "windows": "winmerge.*.setup.*.exe"
+        },
+        "name": "WinMerge",
+        "apt": "meld",
+        "flatpak": { "remote": "flathub", "id": "org.gnome.meld" },
+        "desktopLauncher": "org.gnome.Meld.desktop",
+        "alternative": {
+            "name": "Meld"
+        }
     },
     {
         "regex": {
@@ -865,12 +1214,77 @@
     },
     {
         "regex": {
+            "windows": "cpu-z.*.exe"
+        },
+        "name": "CPU-Z",
+        "flatpak": { "remote": "flathub", "id": "io.github.thetumultuousunicornofdarkness.cpu-x" },
+        "desktopLauncher": "io.github.thetumultuousunicornofdarkness.cpu-x.desktop",
+        "alternative": {
+            "name": "CPU-X"
+        }
+    },
+    {
+        "regex": {
+            "windows": "gpu-z.*.exe"
+        },
+        "name": "GPU-Z",
+        "flatpak": { "remote": "flathub", "id": "io.github.thetumultuousunicornofdarkness.cpu-x" },
+        "desktopLauncher": "io.github.thetumultuousunicornofdarkness.cpu-x.desktop",
+        "alternative": {
+            "name": "CPU-X"
+        }
+    },
+    {
+        "regex": {
+            "windows": "spsetup.*.exe"
+        },
+        "name": "Speccy",
+        "flatpak": { "remote": "flathub", "id": "io.github.thetumultuousunicornofdarkness.cpu-x" },
+        "desktopLauncher": "io.github.thetumultuousunicornofdarkness.cpu-x.desktop",
+        "alternative": {
+            "name": "CPU-X"
+        }
+    },
+    {
+        "regex": {
             "windows": "windirstat.*.msi"
         },
         "name": "WinDirStat",
         "desktopLauncher": "org.gnome.baobab.desktop",
         "alternative": {
             "name": "Disk Usage Analyzer"
+        }
+    },
+    {
+        "regex": {
+            "windows": "treesize.*.setup.*.exe"
+        },
+        "name": "TreeSize",
+        "desktopLauncher": "org.gnome.baobab.desktop",
+        "alternative": {
+            "name": "Disk Usage Analyzer"
+        }
+    },
+    {
+        "regex": {
+             "windows": "sharex.*.exe"
+        },
+        "name": "ShareX",
+        "flatpak": { "remote": "flathub", "id": "org.flameshot.Flameshot" },
+        "desktopLauncher": "org.flameshot.Flameshot.desktop",
+        "alternative": {
+            "name": "Flameshot"
+        }
+    },
+    {
+        "regex": {
+             "windows": "greenshot-installer.*.release.*.exe"
+        },
+        "name": "Greenshot",
+        "flatpak": { "remote": "flathub", "id": "org.flameshot.Flameshot" },
+        "desktopLauncher": "org.flameshot.Flameshot.desktop",
+        "alternative": {
+            "name": "Flameshot"
         }
     },
     {
@@ -889,8 +1303,11 @@
              "windows": "scratch.*.setup.*.(exe|msi)"
         },
         "name": "Scratch",
-        "flatpak": { "remote": "flathub", "id": "edu.mit.Scratch" },
-        "desktopLauncher": "scratch-desktop.desktop"
+        "flatpak": { "remote": "flathub", "id": "org.turbowarp.TurboWarp" },
+        "desktopLauncher": "turbowarp-desktop.desktop",
+        "alternative": {
+            "name": "TurboWarp"
+        }
     },
     {
         "regex": {
@@ -1007,11 +1424,168 @@
     },
     {
         "regex": {
+             "windows": "idea-20.*.exe"
+        },
+        "name": "JetBrains IntelliJ IDEA",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.IntelliJ-IDEA-Ultimate" },
+        "desktopLauncher": "intellij-idea_intellij-idea.desktop"
+    },
+    {
+        "regex": {
+             "windows": "pycharm-20.*.exe"
+        },
+        "name": "JetBrains PyCharm",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.PyCharm-Professional" },
+        "desktopLauncher": "pycharm_pycharm.desktop"
+    },
+    {
+        "regex": {
+             "windows": "phpstorm-20.*.exe"
+        },
+        "name": "JetBrains PhpStorm",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.PhpStorm" },
+        "desktopLauncher": "phpstorm_phpstorm.desktop"
+    },
+    {
+        "regex": {
+             "windows": "goland-20.*.exe"
+        },
+        "name": "JetBrains GoLand",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.GoLand" },
+        "desktopLauncher": "goland_goland.desktop"
+    },
+    {
+        "regex": {
+             "windows": "jetbrains.rider-20.*.exe"
+        },
+        "name": "JetBrains Rider",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.Rider" },
+        "desktopLauncher": "rider_rider.desktop"
+    },
+    {
+        "regex": {
+             "windows": "clion-20.*.exe"
+        },
+        "name": "JetBrains CLion",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.CLion" },
+        "desktopLauncher": "clion_clion.desktop"
+    },
+    {
+        "regex": {
+             "windows": "rustrover-20.*.exe"
+        },
+        "name": "JetBrains RustRover",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.RustRover" },
+        "desktopLauncher": "rustrover_rustrover.desktop"
+    },
+    {
+        "regex": {
+             "windows": "webstorm-20.*.exe"
+        },
+        "name": "JetBrains WebStorm",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.WebStorm" },
+        "desktopLauncher": "webstorm_webstorm.desktop"
+    },
+    {
+        "regex": {
+             "windows": "rubymine-20.*.exe"
+        },
+        "name": "JetBrains RubyMine",
+        "desktopLauncher": "rubymine_rubymine.desktop"
+    },
+    {
+        "regex": {
+             "windows": "datagrip-20.*.exe"
+        },
+        "name": "JetBrains DataGrip",
+        "flatpak": { "remote": "flathub", "id": "com.jetbrains.DataGrip" },
+        "desktopLauncher": "datagrip_datagrip.desktop"
+    },
+    {
+        "regex": {
+             "windows": "dataspell-20.*.exe"
+        },
+        "name": "JetBrains DataSpell",
+        "desktopLauncher": "dataspell_dataspell.desktop"
+    },
+    {
+        "regex": {
+             "windows": "postman.*.exe"
+        },
+        "name": "Postman",
+        "flatpak": { "remote": "flathub", "id": "com.getpostman.Postman" },
+        "desktopLauncher": "postman_postman.desktop"
+    },
+    {
+        "regex": {
+             "windows": "insomnia.core.*.exe"
+        },
+        "name": "Insomnia",
+        "flatpak": { "remote": "flathub", "id": "rest.insomnia.Insomnia" },
+        "desktopLauncher": "insomnia_insomnia.desktop"
+    },
+    {
+        "regex": {
+            "windows": "docker.*.desktop.*.installer.*.exe"
+        },
+        "name": "Docker Desktop",
+        "webLink": { "href": "https://docs.docker.com/desktop/setup/install/linux/ubuntu/" },
+        "mainMessage": "You can download Docker Desktop (Ubuntu package) for Zorin OS from the web",
+        "alternative": {
+            "name": "Docker Desktop website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "cursorusersetup.*.exe"
+        },
+        "name": "Cursor",
+        "webLink": { "href": "https://cursor.com/" },
+        "mainMessage": "You can download Cursor (Linux .deb package) for Zorin OS from the web",
+        "alternative": {
+            "name": "Cursor website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "windsurfusersetup.*.exe"
+        },
+        "name": "Windsurf",
+        "webLink": { "href": "https://windsurf.com/download/editor" },
+        "mainMessage": "Learn how to install Windsurf for Ubuntu in Zorin OS",
+        "alternative": {
+            "name": "Windsurf installation instructions"
+        }
+    },
+    {
+        "regex": {
+            "windows": "syncthing-windows-setup.*.exe"
+        },
+        "name": "Syncthing",
+        "webLink": { "href": "https://apt.syncthing.net/" },
+        "mainMessage": "Learn how to install Syncthing for Ubuntu in Zorin OS",
+        "alternative": {
+            "name": "Syncthing installation instructions"
+        }
+    },
+    {
+        "regex": {
              "windows": "obs-studio-.*.exe"
         },
         "name": "OBS Studio",
         "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
         "desktopLauncher": "com.obsproject.Studio.desktop"
+    },
+    {
+        "regex": {
+             "windows": "bdcamsetup.*.exe"
+        },
+        "name": "Bandicam",
+        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
+        "desktopLauncher": "com.obsproject.Studio.desktop",
+        "alternative": {
+            "name": "OBS Studio"
+        }
     },
     {
         "regex": {
