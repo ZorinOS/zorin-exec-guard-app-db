@@ -113,6 +113,17 @@
     },
     {
         "regex": {
+            "windows": "comet_installer_latest.*.exe"
+        },
+        "name": "Comet Browser",
+        "flatpak": { "remote": "flathub", "id": "com.brave.Browser" },
+        "desktopLauncher": "brave-browser.desktop",
+        "alternative": {
+            "name": "Brave Browser"
+        }
+    },
+    {
+        "regex": {
              "windows": "waterfox.*.setup.*.exe"
         },
         "name": "Waterfox",
@@ -204,7 +215,7 @@
     },
     {
         "regex": {
-            "windows": "flux-setup.exe"
+            "windows": "flux-setup.*.exe"
         },
         "name": "f.lux",
         "desktopLauncher": "gnome-display-panel.desktop",
@@ -315,7 +326,7 @@
     },
     {
         "regex": {
-            "windows": "apple.*.music.*.installer.exe"
+            "windows": "apple.*.music.*.installer.*.exe"
         },
         "name": "Apple Music",
         "webLink": { "href": "https://music.apple.com/" },
@@ -323,7 +334,7 @@
     },
     {
         "regex": {
-            "windows": "(itunes.*setup|itunes.*.installer).exe"
+            "windows": "(itunes.*setup|itunes.*.installer).*.exe"
         },
         "name": "Apple iTunes",
         "webLink": { "href": "https://music.apple.com/" },
@@ -391,7 +402,7 @@
     },
     {
         "regex": {
-            "windows": "krita.*.setup.exe"
+            "windows": "krita.*.setup.*.exe"
         },
         "name": "Krita",
         "flatpak": { "remote": "flathub", "id": "org.kde.krita" },
@@ -1158,7 +1169,7 @@
     },
     {
         "regex": {
-            "windows": "bvsshclient-inst.(exe|msi)"
+            "windows": "bvsshclient-inst.*.(exe|msi)"
         },
         "name": "Bitvise",
         "flatpak": { "remote": "flathub", "id": "uk.org.greenend.chiark.sgtatham.putty" },
@@ -1319,7 +1330,7 @@
     },
     {
         "regex": {
-            "windows": ".*distance.*windows_setup.exe"
+            "windows": ".*distance.*windows_setup.*.exe"
         },
         "name": "Distance",
         "steam": "233610",
@@ -1567,6 +1578,28 @@
     },
     {
         "regex": {
+            "windows": "antigravity.*.exe"
+        },
+        "name": "Google Antigravity",
+        "webLink": { "href": "https://antigravity.google/download/linux" },
+        "mainMessage": "Learn how to install Google Antigravity for Ubuntu in Zorin OS",
+        "alternative": {
+            "name": "Antigravity installation instructions"
+        }
+    },
+    {
+        "regex": {
+            "windows": "ollamasetup.*.exe"
+        },
+        "name": "Ollama",
+        "webLink": { "href": "https://ollama.com/download/linux" },
+        "mainMessage": "Learn how to install Ollama for Linux in Zorin OS",
+        "alternative": {
+            "name": "Ollama installation instructions"
+        }
+    },
+    {
+        "regex": {
             "windows": "syncthing-windows-setup.*.exe"
         },
         "name": "Syncthing",
@@ -1629,7 +1662,7 @@
     },
     {
         "regex": {
-             "windows": "bitcoin-.*.-setup.exe"
+             "windows": "bitcoin-.*.-setup.*.exe"
         },
         "name": "Bitcoin Core",
         "flatpak": { "remote": "flathub", "id": "org.bitcoincore.bitcoin-qt" },
@@ -1663,7 +1696,7 @@
     },
     {
         "regex": {
-            "windows": "retroarch-.*.-setup.exe"
+            "windows": "retroarch-.*.-setup.*.exe"
         },
         "name": "RetroArch",
         "flatpak": { "remote": "flathub", "id": "org.libretro.RetroArch" },
@@ -1711,7 +1744,7 @@
     },
     {
         "regex": {
-            "windows": "citra-setup-windows.exe"
+            "windows": "citra-setup-windows.*.exe"
         },
         "name": "Citra",
         "flatpak": { "remote": "flathub", "id": "org.citra_emu.citra" },
@@ -1781,7 +1814,7 @@
     },
     {
         "regex": {
-            "windows": "sublime_text.*.setup.exe"
+            "windows": "sublime_text.*.setup.*.exe"
         },
         "name": "Sublime Text",
         "flatpak": { "remote": "flathub", "id": "com.sublimetext.three" },
@@ -1789,7 +1822,7 @@
     },
     {
         "regex": {
-            "windows": "eclipse.exe"
+            "windows": "eclipse.*.exe"
         },
         "name": "Eclipse IDE",
         "flatpak": { "remote": "flathub", "id": "org.eclipse.Java" }
@@ -1813,7 +1846,7 @@
     },
     {
         "regex": {
-             "windows": "emacs.*.installer.exe"
+             "windows": "emacs.*.installer.*.exe"
         },
         "name": "GNU Emacs",
         "apt": "emacs",
@@ -2007,7 +2040,7 @@
     },
     {
         "regex": {
-            "windows": "libreoffice.*.msi",
+            "windows": "libreoffice.*.win.*.msi",
             "linux": "libreoffice.*"
         },
         "name": "LibreOffice",
@@ -2037,9 +2070,20 @@
         },
         "name": "Microsoft Office",
         "webLink": { "href": "https://www.office.com" },
-        "mainMessage": "You can use either LibreOffice (pre-installed in Zorin OS) or Microsoft Office/365 on the web",
+        "mainMessage": "You can use either LibreOffice (pre-installed in Zorin OS) or sign into Microsoft Office/365 on the web",
         "alternative": {
             "name": "Microsoft Office/365 on the web"
+        }
+    },
+    {
+        "regex": {
+            "windows": "microsoft.*.365.*.copilot.*.installer.*.exe"
+        },
+        "name": "Microsoft 365 Copilot",
+        "webLink": { "href": "https://www.office.com" },
+        "mainMessage": "You can use either LibreOffice (pre-installed in Zorin OS) or sign into Microsoft Office/365 Copilot on the web",
+        "alternative": {
+            "name": "Microsoft Office/365 Copilot on the web"
         }
     },
     {
@@ -2093,11 +2137,43 @@
     },
     {
         "regex": {
-            "windows": "virtualbox.*.win.exe"
+            "windows": "virtualbox.*.win.*.exe"
         },
         "name": "VirtualBox",
         "apt": "virtualbox",
         "desktopLauncher": "virtualbox.desktop"
+    },
+    {
+        "regex": {
+            "windows": "claude.*.setup.*.exe"
+        },
+        "name": "Claude",
+        "webLink": { "href": "https://claude.ai" },
+        "mainMessage": "You can use Claude on the web"
+    },
+    {
+        "regex": {
+            "windows": "chatgpt.*.installer.*.exe"
+        },
+        "name": "ChatGPT",
+        "webLink": { "href": "https://chatgpt.com/" },
+        "mainMessage": "You can use ChatGPT on the web"
+    },
+    {
+        "regex": {
+            "windows": "microsoft.*.copilot.*.installer.*.exe"
+        },
+        "name": "Microsoft Copilot",
+        "webLink": { "href": "https://copilot.microsoft.com/" },
+        "mainMessage": "You can use Microsoft Copilot on the web"
+    },
+    {
+        "regex": {
+            "windows": "perplexity.*.setup.*.exe"
+        },
+        "name": "Perplexity",
+        "webLink": { "href": "https://www.perplexity.ai/" },
+        "mainMessage": "You can use Perplexity on the web"
     },
     {
         "regex": {
@@ -2112,7 +2188,7 @@
     },
     {
         "regex": {
-            "windows": "balenaetcher.*.setup.exe"
+            "windows": "balenaetcher.*.setup.*.exe"
         },
         "name": "balenaEtcher website",
         "webLink": { "href": "https://etcher.balena.io/#download-etcher" },
