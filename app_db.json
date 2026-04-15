@@ -55,9 +55,9 @@
         "regex": {
              "windows": "operagxsetup.*.exe"
         },
-        "name": "Opera GX website",
-        "webLink": { "href": "https://www.opera.com/gx" },
-        "mainMessage": "You can download Opera GX (.deb package) for Zorin OS from the web"
+        "name": "Opera GX",
+        "flatpak": { "remote": "flathub", "id": "com.opera.opera-gx" },
+        "desktopLauncher": "opera-gx.desktop"
     },
     {
         "regex": {
