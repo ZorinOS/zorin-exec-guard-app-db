@@ -656,17 +656,6 @@
     },
     {
         "regex": {
-            "windows": "affinity-photo.*.exe"
-        },
-        "name": "Affinity Photo",
-        "flatpak": { "remote": "flathub", "id": "org.gimp.GIMP" },
-        "desktopLauncher": "gimp.desktop",
-        "alternative": {
-            "name": "GNU Image Manipulation Program"
-        }
-    },
-    {
-        "regex": {
             "windows": "photoscape.*.exe"
         },
         "name": "Photoscape",
@@ -686,23 +675,13 @@
     },
     {
         "regex": {
-            "windows": "affinity-designer.*.exe"
+            "windows": "affinity.*.(msix|exe)"
         },
-        "name": "Affinity Designer",
-        "flatpak": { "remote": "flathub", "id": "org.inkscape.Inkscape" },
-        "desktopLauncher": "org.inkscape.Inkscape.desktop",
+        "name": "Affinity",
+        "webLink": { "href": "https://github.com/ryzendew/Linux-Affinity-Installer/releases" },
+        "mainMessage": "You can download the unofficial Linux Affinity Installer (AppImage package) for Zorin OS from the web",
         "alternative": {
-            "name": "Inkscape"
-        }
-    },
-    {
-        "regex": {
-            "windows": "affinity-publisher.*.exe"
-        },
-        "name": "Affinity Publisher",
-        "desktopLauncher": "libreoffice-draw.desktop",
-        "alternative": {
-            "name": "LibreOffice Draw"
+            "name": "Linux Affinity Installer"
         }
     },
     {
