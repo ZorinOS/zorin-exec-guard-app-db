@@ -1094,7 +1094,7 @@
         "regex": {
              "windows": "npp.*.(exe|msi)"
         },
-        "name": "Notepad++",       
+        "name": "Notepad++",
         "flatpak": { "remote": "flathub", "id": "com.github.dail8859.NotepadNext" },
         "desktopLauncher": "com.github.dail8859.NotepadNext.desktop",
         "alternative": {
@@ -2195,5 +2195,174 @@
         "alternative": {
             "name": "GNOME Boxes"
         }
-   }
+    },
+    {
+        "regex": {
+            "windows": "adobe.*.lightroom.*.classic.*.installer.*.exe"
+        },
+        "name": "Adobe Lightroom Classic",
+        "flatpak": { "remote": "flathub", "id": "org.darktable.Darktable" },
+        "desktopLauncher": "org.darktable.Darktable.desktop",
+        "alternative": {
+            "name": "Darktable"
+        }
+    },
+    {
+        "regex": {
+            "windows": "rawtherapee.*.installer.*.exe"
+        },
+        "name": "RawTherapee",
+        "flatpak": { "remote": "flathub", "id": "com.rawtherapee.RawTherapee" },
+        "desktopLauncher": "rawtherapee.desktop"
+    },
+    {
+        "regex": {
+            "windows": "adobe.*.after.*.effects.*.installer.*.exe"
+        },
+        "name": "Adobe After Effects",
+        "flatpak": { "remote": "flathub", "id": "fr.natron.Natron" },
+        "desktopLauncher": "natron.desktop",
+        "alternative": {
+            "name": "Natron"
+        }
+    },
+    {
+        "regex": {
+            "windows": "shotcut.*.setup.*.exe"
+        },
+        "name": "Shotcut",
+        "flatpak": { "remote": "flathub", "id": "org.shotcut.Shotcut" },
+        "desktopLauncher": "org.shotcut.Shotcut.desktop"
+    },
+    {
+        "regex": {
+            "windows": "onenote.*.(exe|msi)"
+        },
+        "name": "Microsoft OneNote",
+        "flatpak": { "remote": "flathub", "id": "net.cozic.joplin_desktop" },
+        "desktopLauncher": "joplin.desktop",
+        "alternative": {
+            "name": "Joplin"
+        }
+    },
+    {
+        "regex": {
+            "windows": "logseq.*.installer.*.exe"
+        },
+        "name": "Logseq",
+        "flatpak": { "remote": "flathub", "id": "com.logseq.Logseq" },
+        "desktopLauncher": "logseq.desktop"
+    },
+    {
+        "regex": {
+            "windows": "xournalpp.*.installer.*.exe"
+        },
+        "name": "Xournal++",
+        "flatpak": { "remote": "flathub", "id": "com.github.xournalpp.xournalpp" },
+        "desktopLauncher": "com.github.xournalpp.xournalpp.desktop"
+    },
+    {
+        "regex": {
+            "windows": "autocad.*.exe"
+        },
+        "name": "Autodesk AutoCAD",
+        "flatpak": { "remote": "flathub", "id": "org.freecadweb.FreeCAD" },
+        "desktopLauncher": "org.freecadweb.FreeCAD.desktop",
+        "alternative": {
+            "name": "FreeCAD"
+        }
+    },
+    {
+        "regex": {
+            "windows": "solidworks.*.exe"
+        },
+        "name": "SolidWorks",
+        "flatpak": { "remote": "flathub", "id": "org.freecadweb.FreeCAD" },
+        "desktopLauncher": "org.freecadweb.FreeCAD.desktop",
+        "alternative": {
+            "name": "FreeCAD"
+        }
+    },
+    {
+        "regex": {
+            "windows": "streamlabs.*.setup.*.exe"
+        },
+        "name": "Streamlabs Desktop",
+        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
+        "desktopLauncher": "com.obsproject.Studio.desktop",
+        "alternative": {
+            "name": "OBS Studio"
+        }
+    },
+    {
+        "regex": {
+            "windows": "xsplit.*.(exe|msi)"
+        },
+        "name": "XSplit Broadcaster",
+        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
+        "desktopLauncher": "com.obsproject.Studio.desktop",
+        "alternative": {
+            "name": "OBS Studio"
+        }
+    },
+    {
+        "regex": {
+            "windows": "adobe.*.indesign.*.installer.*.exe"
+        },
+        "name": "Adobe InDesign",
+        "flatpak": { "remote": "flathub", "id": "net.scribus.Scribus" },
+        "desktopLauncher": "scribus.desktop",
+        "alternative": {
+            "name": "Scribus"
+        }
+    },
+    {
+        "regex": {
+            "windows": "ms-publisher.*.(exe|msi)"
+        },
+        "name": "Microsoft Publisher",
+        "flatpak": { "remote": "flathub", "id": "net.scribus.Scribus" },
+        "desktopLauncher": "scribus.desktop",
+        "alternative": {
+            "name": "Scribus"
+        }
+    },
+    {
+        "regex": {
+            "windows": "mstsc.*.(exe|msi)"
+        },
+        "name": "Microsoft Remote Desktop",
+        "flatpak": { "remote": "flathub", "id": "org.remmina.Remmina" },
+        "desktopLauncher": "org.remmina.Remmina.desktop",
+        "alternative": {
+            "name": "Remmina"
+        }
+    },
+    {
+        "regex": {
+            "windows": "phonelink.*.(exe|msi)"
+        },
+        "name": "Microsoft Phone Link",
+        "webLink": { "href": "https://zorin.com/os/#zorin-connect" },
+        "mainMessage": "You can connect your phone to Zorin OS using Zorin Connect, pre-installed in the system",
+        "alternative": {
+            "name": "Zorin Connect"
+        }
+    },
+    {
+        "regex": {
+            "windows": "lmms.*.win.*.exe"
+        },
+        "name": "LMMS",
+        "flatpak": { "remote": "flathub", "id": "io.lmms.LMMS" },
+        "desktopLauncher": "lmms.desktop"
+    },
+    {
+        "regex": {
+            "windows": "manuskript.*.installer.*.exe"
+        },
+        "name": "Manuskript",
+        "flatpak": { "remote": "flathub", "id": "io.github.olivierkes.manuskript" },
+        "desktopLauncher": "manuskript.desktop"
+    }
 ]
