@@ -39,9 +39,9 @@
         "regex": {
              "windows": "bravebrowsersetup.*.exe"
         },
-        "name": "Brave Browser",
+        "name": "Brave",
         "flatpak": { "remote": "flathub", "id": "com.brave.Browser" },
-        "desktopLauncher": "brave-browser.desktop"
+        "desktopLauncher": "brave-origin.desktop"
     },
     {
         "regex": {
@@ -106,9 +106,9 @@
         },
         "name": "Samsung Browser",
         "flatpak": { "remote": "flathub", "id": "com.brave.Browser" },
-        "desktopLauncher": "brave-browser.desktop",
+        "desktopLauncher": "brave-origin.desktop",
         "alternative": {
-            "name": "Brave Browser"
+            "name": "Brave"
         }
     },
     {
@@ -117,9 +117,9 @@
         },
         "name": "Comet Browser",
         "flatpak": { "remote": "flathub", "id": "com.brave.Browser" },
-        "desktopLauncher": "brave-browser.desktop",
+        "desktopLauncher": "brave-origin.desktop",
         "alternative": {
-            "name": "Brave Browser"
+            "name": "Brave"
         }
     },
     {
