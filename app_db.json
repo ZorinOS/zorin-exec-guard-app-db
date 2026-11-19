@@ -45,6 +45,13 @@
     },
     {
         "regex": {
+             "windows": "braveoriginsetup.*.exe"
+        },
+        "name": "Brave Origin",
+        "desktopLauncher": "brave-origin.desktop"
+    },
+    {
+        "regex": {
              "windows": "microsoftedgesetup.*.(exe|msi)"
         },
         "name": "Microsoft Edge",
@@ -452,13 +459,22 @@
     },
     {
         "regex": {
-            "windows": "epicinstaller.*.msi"
+            "windows": "lmms.*.win.*.exe"
         },
-        "name": "Epic Games Store",
-        "flatpak": { "remote": "flathub", "id": "com.heroicgameslauncher.hgl" },
-        "desktopLauncher": "com.heroicgameslauncher.hgl.desktop",
+        "name": "LMMS",
+        "flatpak": { "remote": "flathub", "id": "io.lmms.LMMS" },
+        "desktopLauncher": "lmms.desktop"
+    },
+    {
+        "regex": {
+            "windows": "epicgameslaunchersetup.exe"
+        },
+        "name": "Epic Games Launcher",
+        "webLink": { "href": "https://launcher.epicgames.com/" },
+        "mainMessage": "You can download Epic Games Launcher (Linux .deb package) for Zorin OS from the web",
+        "desktopLauncher": "epic-games-launcher.desktop",
         "alternative": {
-            "name": "Heroic Games Launcher"
+            "name": "Epic Games Launcher webpage"
         }
     },
     {
@@ -604,6 +620,28 @@
     },
     {
         "regex": {
+            "windows": "adobe.*.after.*.effects.*.installer.*.exe"
+        },
+        "name": "Adobe After Effects",
+        "flatpak": { "remote": "flathub", "id": "org.blender.Blender" },
+        "desktopLauncher": "blender.desktop",
+        "alternative": {
+            "name": "Blender"
+        }
+    },
+    {
+        "regex": {
+            "windows": "adobe.*.indesign.*.installer.*.exe"
+        },
+        "name": "Adobe InDesign",
+        "flatpak": { "remote": "flathub", "id": "net.scribus.Scribus" },
+        "desktopLauncher": "scribus.desktop",
+        "alternative": {
+            "name": "Scribus"
+        }
+    },
+    {
+        "regex": {
             "windows": "adobe.*.premiere.*.installer.*.exe"
         },
         "name": "Adobe Premiere",
@@ -623,6 +661,14 @@
         "alternative": {
             "name": "Kdenlive"
         }
+    },
+    {
+        "regex": {
+            "windows": "shotcut.*.win.*.exe"
+        },
+        "name": "Shotcut",
+        "flatpak": { "remote": "flathub", "id": "org.shotcut.Shotcut" },
+        "desktopLauncher": "org.shotcut.Shotcut.desktop"
     },
     {
         "regex": {
@@ -664,6 +710,14 @@
         "alternative": {
             "name": "GNU Image Manipulation Program"
         }
+    },
+    {
+        "regex": {
+            "windows": "rawtherapee.*.win.*.exe"
+        },
+        "name": "RawTherapee",
+        "flatpak": { "remote": "flathub", "id": "com.rawtherapee.RawTherapee" },
+        "desktopLauncher": "rawtherapee.desktop"
     },
     {
         "regex": {
@@ -732,6 +786,265 @@
         "alternative": {
             "name": "Blender"
         }
+    },
+    {
+        "regex": {
+            "windows": "artcraft-launcher.*.(exe|msi)"
+        },
+        "name": "ArtCraft Launcher",
+        "webLink": { "href": "https://getartcraft.com/" },
+        "mainMessage": "You can download Lightworks (Linux Debian package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.artcraft-launcher.desktop",
+        "alternative": {
+            "name": "ArtCraft website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "photocraft.*.(exe|msi)"
+        },
+        "name": "PhotoCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/photocraft#get-it" },
+        "mainMessage": "You can download PhotoCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.photocraft.desktop",
+        "alternative": {
+            "name": "PhotoCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "vectorcraft.*.(exe|msi)"
+        },
+        "name": "VectorCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/vectorcraft#get-it" },
+        "mainMessage": "You can download VectorCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.vectorcraft.desktop",
+        "alternative": {
+            "name": "VectorCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "filmcraft.*.(exe|msi)"
+        },
+        "name": "FilmCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/filmcraft#get-it" },
+        "mainMessage": "You can download FilmCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.filmcraft.desktop",
+        "alternative": {
+            "name": "FilmCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "lightcraft.*.(exe|msi)"
+        },
+        "name": "LightCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/lightcraft#get-it" },
+        "mainMessage": "You can download LightCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.lightcraft.desktop",
+        "alternative": {
+            "name": "LightCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "pdfcraft.*.(exe|msi)"
+        },
+        "name": "PdfCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/pdfcraft#get-it" },
+        "mainMessage": "You can download PdfCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.pdfcraft.desktop",
+        "alternative": {
+            "name": "PdfCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "effectcraft.*.(exe|msi)"
+        },
+        "name": "EffectCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/effectcraft#get-it" },
+        "mainMessage": "You can download EffectCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.effectcraft.desktop",
+        "alternative": {
+            "name": "EffectCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "anicraft.*.(exe|msi)"
+        },
+        "name": "AniCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/anicraft#get-it" },
+        "mainMessage": "You can download AniCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.anicraft.desktop",
+        "alternative": {
+            "name": "AniCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "designcraft.*.(exe|msi)"
+        },
+        "name": "DesignCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/designcraft#get-it" },
+        "mainMessage": "You can download DesignCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.designcraft.desktop",
+        "alternative": {
+            "name": "DesignCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "figcraft.*.(exe|msi)"
+        },
+        "name": "FigCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/figcraft#get-it" },
+        "mainMessage": "You can download FigCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.figcraft.desktop",
+        "alternative": {
+            "name": "FigCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "texturecraft.*.(exe|msi)"
+        },
+        "name": "TextureCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/texturecraft#get-it" },
+        "mainMessage": "You can download TextureCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.texturecraft.desktop",
+        "alternative": {
+            "name": "TextureCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "materialcraft.*.(exe|msi)"
+        },
+        "name": "MaterialCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/materialcraft#get-it" },
+        "mainMessage": "You can download MaterialCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.materialcraft.desktop",
+        "alternative": {
+            "name": "MaterialCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "soundcraft.*.(exe|msi)"
+        },
+        "name": "SoundCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/soundcraft#get-it" },
+        "mainMessage": "You can download SoundCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.soundcraft.desktop",
+        "alternative": {
+            "name": "SoundCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "wordcraft.*.(exe|msi)"
+        },
+        "name": "WordCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/wordcraft#get-it" },
+        "mainMessage": "You can download WordCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.wordcraft.desktop",
+        "alternative": {
+            "name": "WordCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "deckcraft.*.(exe|msi)"
+        },
+        "name": "DeckCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/deckcraft#get-it" },
+        "mainMessage": "You can download DeckCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.deckcraft.desktop",
+        "alternative": {
+            "name": "DeckCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "cadcraft.*.(exe|msi)"
+        },
+        "name": "CADCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/cadcraft#get-it" },
+        "mainMessage": "You can download CADCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.cadcraft.desktop",
+        "alternative": {
+            "name": "CADCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "gridcraft.*.(exe|msi)"
+        },
+        "name": "GridCraft",
+        "webLink": { "href": "https://getartcraft.com/apps/gridcraft#get-it" },
+        "mainMessage": "You can download GridCraft (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.gridcraft.desktop",
+        "alternative": {
+            "name": "GridCraft webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "craft-anything.*.(exe|msi)"
+        },
+        "name": "Craft Anything",
+        "webLink": { "href": "https://getartcraft.com/apps/craft-anything#get-it" },
+        "mainMessage": "You can download Craft Anything (Linux Debian standalone package) for Zorin OS from the web",
+        "desktopLauncher": "ai.storyteller.craft-anything.desktop",
+        "alternative": {
+            "name": "Craft Anything webpage"
+        }
+    },
+    {
+        "regex": {
+            "windows": "mailcraft.*.(exe|msi)"
+        },
+        "name": "MailCraft",
+        "webLink": { "href": "https://mailcraft.work/personal/download/#linux" },
+        "mainMessage": "You can download MailCraft (Linux .deb package) for Zorin OS from the web",
+        "desktopLauncher": "io.github.billsecond.mailcraft.desktop",
+        "alternative": {
+            "name": "MailCraft website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "solidcraft.*.(exe|msi)"
+        },
+        "name": "SolidCraft",
+        "webLink": { "href": "https://solidcraft.io/download/" },
+        "mainMessage": "You can download SolidCraft (Linux DEB package) for Zorin OS from the web",
+        "desktopLauncher": "io.tangencylabs.solidcraft.desktop",
+        "alternative": {
+            "name": "SolidCraft website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "solidworkssetup.*.exe"
+        },
+        "name": "SOLIDWORKS",
+        "flatpak": { "remote": "flathub", "id": "org.freecad.FreeCAD" },
+        "desktopLauncher": "org.freecad.FreeCAD.desktop",
+        "alternative": {
+            "name": "FreeCAD"
+        }
+    },
+    {
+        "regex": {
+            "windows": "autodesk.*.autocad.*.exe"
+        },
+        "name": "Autodesk AutoCAD",
+        "webLink": { "href": "https://web.autocad.com/" },
+        "mainMessage": "You can use Autodesk AutoCAD on the web"
     },
     {
         "regex": {
@@ -1014,6 +1327,22 @@
         "name": "Obsidian",
         "flatpak": { "remote": "flathub", "id": "md.obsidian.Obsidian" },
         "desktopLauncher": "obsidian.desktop"
+    },
+    {
+        "regex": {
+            "windows": "logseq.*.win.*.exe"
+        },
+        "name": "Logseq",
+        "flatpak": { "remote": "flathub", "id": "com.logseq.Logseq" },
+        "desktopLauncher": "logseq.desktop"
+    },
+    {
+        "regex": {
+            "windows": "xournalpp.*.windows.*.setup.*.exe"
+        },
+        "name": "Xournal++",
+        "flatpak": { "remote": "flathub", "id": "com.github.xournalpp.xournalpp" },
+        "desktopLauncher": "com.github.xournalpp.xournalpp.desktop"
     },
     {
         "regex": {
@@ -1422,6 +1751,22 @@
     },
     {
         "regex": {
+             "windows": "anaconda.*.windows.*.exe"
+        },
+        "name": "Anaconda website",
+        "webLink": { "href": "https://www.anaconda.com/download/success?reg=skipped&path=distribution" },
+        "mainMessage": "You can download Anaconda (Linux installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
+             "windows": "miniconda.*.windows.*.exe"
+        },
+        "name": "Anaconda website",
+        "webLink": { "href": "https://www.anaconda.com/download/success?reg=skipped&path=distribution" },
+        "mainMessage": "You can download Miniconda (Linux installer) for Zorin OS from the web"
+    },
+    {
+        "regex": {
              "windows": "idea-20.*.exe"
         },
         "name": "JetBrains IntelliJ IDEA",
@@ -1601,6 +1946,28 @@
              "windows": "bdcamsetup.*.exe"
         },
         "name": "Bandicam",
+        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
+        "desktopLauncher": "com.obsproject.Studio.desktop",
+        "alternative": {
+            "name": "OBS Studio"
+        }
+    },
+    {
+        "regex": {
+             "windows": "streamlabs.*.desktop.*.setup.*.exe"
+        },
+        "name": "Streamlabs Desktop",
+        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
+        "desktopLauncher": "com.obsproject.Studio.desktop",
+        "alternative": {
+            "name": "OBS Studio"
+        }
+    },
+    {
+        "regex": {
+             "windows": "xsplit.*.broadcaster.*.exe"
+        },
+        "name": "XSplit Broadcaster",
         "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
         "desktopLauncher": "com.obsproject.Studio.desktop",
         "alternative": {
@@ -2028,7 +2395,7 @@
     },
     {
         "regex": {
-            "windows": "desktopeditors.*.(exe|msi)",
+            "windows": "desktopeditors.*.exe",
             "linux": "onlyoffice-desktopeditors.*"
         },
         "name": "ONLYOFFICE",
@@ -2037,7 +2404,25 @@
     },
     {
         "regex": {
-            "windows": "wps_office_inst.*.(exe|msi)"
+            "windows": "euro-office-desktopeditors.*.windows.*.exe"
+        },
+        "name": "Euro-Office download page",
+        "webLink": { "href": "https://github.com/Euro-Office/DesktopEditors/releases" },
+        "mainMessage": "You can install Euro-Office (Linux .deb installer) for Zorin OS from the web",
+        "desktopLauncher": "euro-office-euro-office.desktop"
+    },
+    {
+        "regex": {
+            "windows": "nextcloud-office-desktopeditors.*.windows.*.exe"
+        },
+        "name": "Nextcloud Office download page",
+        "webLink": { "href": "https://nextcloud.com/install/#desktop-office" },
+        "mainMessage": "You can install Nextcloud Office (Linux .deb installer) for Zorin OS from the web",
+        "desktopLauncher": "nextcloud-office-nextcloudoffice.desktop"
+    },
+    {
+        "regex": {
+            "windows": "wps_.*.(exe|msi)"
         },
         "name": "WPS Office",
         "flatpak": { "remote": "flathub", "id": "com.wps.Office" },
@@ -2052,6 +2437,17 @@
         "mainMessage": "You can use either LibreOffice (pre-installed in Zorin OS) or sign into Microsoft Office/365 on the web",
         "alternative": {
             "name": "Microsoft Office/365 on the web"
+        }
+    },
+    {
+        "regex": {
+            "windows": "onenote.*.installer.*.(exe|msi)"
+        },
+        "name": "Microsoft OneNote",
+        "webLink": { "href": "https://onenote.cloud.microsoft" },
+        "mainMessage": "You can use Microsoft OneNote on the web",
+        "alternative": {
+            "name": "Microsoft OneNote"
         }
     },
     {
@@ -2116,6 +2512,14 @@
     },
     {
         "regex": {
+            "windows": "manuskript.*.exe"
+        },
+        "name": "Manuskript",
+        "flatpak": { "remote": "flathub", "id": "io.github.olivierkes.manuskript" },
+        "desktopLauncher": "manuskript.desktop"
+    },
+    {
+        "regex": {
             "windows": "virtualbox.*.win.*.exe"
         },
         "name": "VirtualBox",
@@ -2132,11 +2536,21 @@
     },
     {
         "regex": {
+            "windows": "claude.*.setup.*.exe"
+        },
+        "name": "Claude",
+        "webLink": { "href": "https://code.claude.com/docs/en/desktop-linux#install-from-a-downloaded-file" },
+        "mainMessage": "Learn how to install Claude (Linux .deb package) in Zorin OS",
+        "desktopLauncher": "com.anthropic.Claude.desktop"
+    },
+    {
+        "regex": {
             "windows": "chatgpt.*.installer.*.exe"
         },
-        "name": "ChatGPT",
-        "webLink": { "href": "https://chatgpt.com/" },
-        "mainMessage": "You can use ChatGPT on the web"
+        "name": "ChatGPT website",
+        "webLink": { "href": "https://chatgpt.com/download/" },
+        "mainMessage": "You can install ChatGPT (Linux .deb package) for Zorin OS from the web",
+        "desktopLauncher": "chatgpt.desktop"
     },
     {
         "regex": {
@@ -2153,6 +2567,35 @@
         "name": "Perplexity",
         "webLink": { "href": "https://www.perplexity.ai/" },
         "mainMessage": "You can use Perplexity on the web"
+    },
+    {
+        "regex": {
+            "windows": "tradingview.msix"
+        },
+        "name": "TradingView website",
+        "webLink": { "href": "https://www.tradingview.com/desktop/" },
+        "mainMessage": "You can install TradingView (Linux .deb package) for Zorin OS from the web",
+        "desktopLauncher": "tradingview.desktop"
+    },
+    {
+        "regex": {
+            "windows": "mt5setup.exe"
+        },
+        "name": "MetaTrader 5",
+        "webLink": { "href": "https://www.mql5.com/en/articles/625?utm_source=www.metatrader5.com&utm_campaign=download.mt5.linux" },
+        "mainMessage": "Learn how to install MetaTrader 5 in Zorin OS",
+        "alternative": {
+            "name": "MetaTrader 5 installation instructions"
+        }
+    },
+    {
+        "regex": {
+            "windows": "webull.*.desktop.*.exe"
+        },
+        "name": "Webull website",
+        "webLink": { "href": "https://www.webull.com/trading-platforms/desktop-app" },
+        "mainMessage": "You can install Webull Desktop (Linux .deb package) for Zorin OS from the web",
+        "desktopLauncher": "webulldesktop.desktop"
     },
     {
         "regex": {
@@ -2186,146 +2629,35 @@
     },
     {
         "regex": {
-            "windows": "(windows.*(setup|install)|mediacreationtool).*.exe"
+            "windows": "quicken.exe"
         },
-        "name": "Microsoft Windows",
-        "desktopLauncher": "org.gnome.Boxes.desktop",
-        "flatpak": { "remote": "flathub", "id": "org.gnome.Boxes" },
-        "mainMessage": "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS",
-        "alternative": {
-            "name": "GNOME Boxes"
-        }
+        "name": "Quicken",
+        "webLink": { "href": "https://www.quicken.com/" },
+        "mainMessage": "You can use Quicken on the web"
     },
     {
         "regex": {
-            "windows": "adobe.*.lightroom.*.classic.*.installer.*.exe"
+            "windows": "quickbooks.*.exe"
         },
-        "name": "Adobe Lightroom Classic",
-        "flatpak": { "remote": "flathub", "id": "org.darktable.Darktable" },
-        "desktopLauncher": "org.darktable.Darktable.desktop",
-        "alternative": {
-            "name": "Darktable"
-        }
+        "name": "QuickBooks Online migration guide",
+        "webLink": { "href": "https://quickbooks.intuit.com/learn-support/en-us/help-article/import-export-data-files/move-quickbooks-desktop-file-quickbooks-online/L6af3Z0Fb_US_en_US" },
+        "mainMessage": "You can use Intuit QuickBooks Online on the web"
     },
     {
         "regex": {
-            "windows": "rawtherapee.*.installer.*.exe"
+            "windows": "(windows.*.|)(turbotax|ttbinc).*.exe"
         },
-        "name": "RawTherapee",
-        "flatpak": { "remote": "flathub", "id": "com.rawtherapee.RawTherapee" },
-        "desktopLauncher": "rawtherapee.desktop"
+        "name": "Intuit TurboTax",
+        "webLink": { "href": "https://turbotax.intuit.com/" },
+        "mainMessage": "You can use Intuit TurboTax on the web"
     },
     {
         "regex": {
-            "windows": "adobe.*.after.*.effects.*.installer.*.exe"
+            "windows": "hrblock.*.exe"
         },
-        "name": "Adobe After Effects",
-        "flatpak": { "remote": "flathub", "id": "fr.natron.Natron" },
-        "desktopLauncher": "natron.desktop",
-        "alternative": {
-            "name": "Natron"
-        }
-    },
-    {
-        "regex": {
-            "windows": "shotcut.*.setup.*.exe"
-        },
-        "name": "Shotcut",
-        "flatpak": { "remote": "flathub", "id": "org.shotcut.Shotcut" },
-        "desktopLauncher": "org.shotcut.Shotcut.desktop"
-    },
-    {
-        "regex": {
-            "windows": "onenote.*.(exe|msi)"
-        },
-        "name": "Microsoft OneNote",
-        "flatpak": { "remote": "flathub", "id": "net.cozic.joplin_desktop" },
-        "desktopLauncher": "joplin.desktop",
-        "alternative": {
-            "name": "Joplin"
-        }
-    },
-    {
-        "regex": {
-            "windows": "logseq.*.installer.*.exe"
-        },
-        "name": "Logseq",
-        "flatpak": { "remote": "flathub", "id": "com.logseq.Logseq" },
-        "desktopLauncher": "logseq.desktop"
-    },
-    {
-        "regex": {
-            "windows": "xournalpp.*.installer.*.exe"
-        },
-        "name": "Xournal++",
-        "flatpak": { "remote": "flathub", "id": "com.github.xournalpp.xournalpp" },
-        "desktopLauncher": "com.github.xournalpp.xournalpp.desktop"
-    },
-    {
-        "regex": {
-            "windows": "autocad.*.exe"
-        },
-        "name": "Autodesk AutoCAD",
-        "flatpak": { "remote": "flathub", "id": "org.freecadweb.FreeCAD" },
-        "desktopLauncher": "org.freecadweb.FreeCAD.desktop",
-        "alternative": {
-            "name": "FreeCAD"
-        }
-    },
-    {
-        "regex": {
-            "windows": "solidworks.*.exe"
-        },
-        "name": "SolidWorks",
-        "flatpak": { "remote": "flathub", "id": "org.freecadweb.FreeCAD" },
-        "desktopLauncher": "org.freecadweb.FreeCAD.desktop",
-        "alternative": {
-            "name": "FreeCAD"
-        }
-    },
-    {
-        "regex": {
-            "windows": "streamlabs.*.setup.*.exe"
-        },
-        "name": "Streamlabs Desktop",
-        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
-        "desktopLauncher": "com.obsproject.Studio.desktop",
-        "alternative": {
-            "name": "OBS Studio"
-        }
-    },
-    {
-        "regex": {
-            "windows": "xsplit.*.(exe|msi)"
-        },
-        "name": "XSplit Broadcaster",
-        "flatpak": { "remote": "flathub", "id": "com.obsproject.Studio" },
-        "desktopLauncher": "com.obsproject.Studio.desktop",
-        "alternative": {
-            "name": "OBS Studio"
-        }
-    },
-    {
-        "regex": {
-            "windows": "adobe.*.indesign.*.installer.*.exe"
-        },
-        "name": "Adobe InDesign",
-        "flatpak": { "remote": "flathub", "id": "net.scribus.Scribus" },
-        "desktopLauncher": "scribus.desktop",
-        "alternative": {
-            "name": "Scribus"
-        }
-    },
-    {
-        "regex": {
-            "windows": "ms-publisher.*.(exe|msi)"
-        },
-        "name": "Microsoft Publisher",
-        "flatpak": { "remote": "flathub", "id": "net.scribus.Scribus" },
-        "desktopLauncher": "scribus.desktop",
-        "alternative": {
-            "name": "Scribus"
-        }
+        "name": "H&R Block Online",
+        "webLink": { "href": "https://www.hrblock.com/online-tax-filing/" },
+        "mainMessage": "You can use H&amp;R Block Online on the web"
     },
     {
         "regex": {
@@ -2340,29 +2672,25 @@
     },
     {
         "regex": {
-            "windows": "phonelink.*.(exe|msi)"
+            "windows": "windows.*.app.*.installer.*.(exe|msi)"
         },
-        "name": "Microsoft Phone Link",
-        "webLink": { "href": "https://zorin.com/os/#zorin-connect" },
-        "mainMessage": "You can connect your phone to Zorin OS using Zorin Connect, pre-installed in the system",
+        "name": "Windows App",
+        "flatpak": { "remote": "flathub", "id": "org.remmina.Remmina" },
+        "desktopLauncher": "org.remmina.Remmina.desktop",
         "alternative": {
-            "name": "Zorin Connect"
+            "name": "Remmina"
         }
     },
     {
         "regex": {
-            "windows": "lmms.*.win.*.exe"
+            "windows": "(windows.*(setup|install)|mediacreationtool).*.exe"
         },
-        "name": "LMMS",
-        "flatpak": { "remote": "flathub", "id": "io.lmms.LMMS" },
-        "desktopLauncher": "lmms.desktop"
-    },
-    {
-        "regex": {
-            "windows": "manuskript.*.installer.*.exe"
-        },
-        "name": "Manuskript",
-        "flatpak": { "remote": "flathub", "id": "io.github.olivierkes.manuskript" },
-        "desktopLauncher": "manuskript.desktop"
+        "name": "Microsoft Windows",
+        "desktopLauncher": "org.gnome.Boxes.desktop",
+        "flatpak": { "remote": "flathub", "id": "org.gnome.Boxes" },
+        "mainMessage": "Install GNOME Boxes to run Microsoft Windows inside a Virtual Machine in Zorin OS",
+        "alternative": {
+            "name": "GNOME Boxes"
+        }
     }
 ]
