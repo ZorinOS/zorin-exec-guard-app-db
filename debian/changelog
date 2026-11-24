@@ -1,3 +1,9 @@
+zorin-exec-guard-app-db (1.6) noble; urgency=medium
+
+  * Added many new apps and corrected some existing listings
+
+ -- Artyom Zorin <azorin@zoringroup.com>  Tue, 24 Nov 2026 18:37:25 +0000
+
 zorin-exec-guard-app-db (1.5.5) noble; urgency=medium
 
   * Updated browser alternatives
