@@ -730,6 +730,17 @@
     },
     {
         "regex": {
+            "windows": "fxsound_setup.*.exe"
+        },
+        "name": "FxSound",
+        "flatpak": { "remote": "flathub", "id": "com.github.wwmm.easyeffects" },
+        "desktopLauncher": "com.github.wwmm.easyeffects.desktop",
+        "alternative": {
+            "name": "Easy Effects"
+        }
+    },
+    {
+        "regex": {
             "windows": "voicemeeter.*.exe"
         },
         "name": "Voicemeeter",
@@ -2107,6 +2118,16 @@
     },
     {
         "regex": {
+            "windows": "airdroid_desktop_client.*.exe"
+        },
+        "name": "AirDroid",
+        "desktopLauncher": "org.gnome.Shell.Extensions.ZorinConnect.Preferences.desktop",
+        "alternative": {
+            "name": "Zorin Connect"
+        }
+    },
+    {
+        "regex": {
             "windows": "teamviewer_setup.*.exe"
         },
         "name": "TeamViewer website",
@@ -2469,9 +2490,31 @@
         },
         "name": "BlueStacks",
         "webLink": { "href": "https://www.genymotion.com/product-desktop/download/" },
-        "mainMessage": "You can download Genymotion (Ubuntu package) for Zorin OS from the web",
+        "mainMessage": "You can download Genymotion Desktop (Linux package) for Zorin OS from the web",
         "alternative": {
-            "name": "Genymotion Desktop"
+            "name": "Genymotion website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "ldplayer.*.exe"
+        },
+        "name": "LDPlayer",
+        "webLink": { "href": "https://www.genymotion.com/product-desktop/download/" },
+        "mainMessage": "You can download Genymotion Desktop (Linux package) for Zorin OS from the web",
+        "alternative": {
+            "name": "Genymotion website"
+        }
+    },
+    {
+        "regex": {
+            "windows": "nox_setup.*.exe"
+        },
+        "name": "NoxPlayer",
+        "webLink": { "href": "https://www.genymotion.com/product-desktop/download/" },
+        "mainMessage": "You can download Genymotion Desktop (Linux package) for Zorin OS from the web",
+        "alternative": {
+            "name": "Genymotion website"
         }
     },
     {
@@ -3484,6 +3527,14 @@
     },
     {
         "regex": {
+            "windows": "hamachi.*.msi"
+        },
+        "name": "LogMeIn Hamachi website",
+        "webLink": { "href": "https://vpn.net/linux" },
+        "mainMessage": "You can download LogMeIn Hamachi (Ubuntu .deb package) for Zorin OS from the web"
+    },
+    {
+        "regex": {
             "windows": "windscribe.*.exe"
         },
         "name": "Windscribe website",
@@ -3608,6 +3659,14 @@
         "name": "Microsoft OneNote",
         "webLink": { "href": "https://onenote.cloud.microsoft" },
         "mainMessage": "You can use Microsoft OneNote on the web"
+    },
+    {
+        "regex": {
+            "windows": "pbidesktopsetup.*.exe"
+        },
+        "name": "Microsoft Power BI",
+        "webLink": { "href": "https://app.powerbi.com/" },
+        "mainMessage": "You can use Microsoft Power BI on the web"
     },
     {
         "regex": {
@@ -3870,6 +3929,14 @@
         "alternative": {
             "name": "Popsicle"
         }
+    },
+    {
+        "regex": {
+            "windows": "imager[-_](\\d|latest).*.exe"
+        },
+        "name": "Raspberry Pi Imager",
+        "apt": "rpi-imager",
+        "desktopLauncher": "org.raspberrypi.rpi-imager.desktop"
     },
     {
         "regex": {
